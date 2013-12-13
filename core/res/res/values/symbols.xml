@@ -1962,4 +1962,5 @@
   <java-symbol type="string" name="symbol_picker_Z" />
 
   <java-symbol type="bool" name="use_motion_accel" />
+  <java-symbol type="bool" name="config_setup_mms_data" />
 </resources>
