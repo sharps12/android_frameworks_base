@@ -4488,6 +4488,11 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         }
 
         mLidState = newLidState;
+
+        Intent intent = new Intent(ACTION_LID_STATE_CHANGED);
+        intent.putExtra(EXTRA_LID_STATE, mLidState);
+        mContext.sendStickyBroadcastAsUser(intent, UserHandle.ALL);
+
         applyLidSwitchState();
         updateRotation(true);
 
@@ -5971,7 +5976,14 @@ public class PhoneWindowManager implements WindowManagerPolicy {
         if (mLidState == LID_CLOSED && mLidControlsSleep
             && Settings.System.getIntForUser(mContext.getContentResolver(),
             Settings.System.LOCKSCREEN_LID_WAKE, 1, UserHandle.USER_CURRENT) == 1) {
-            mPowerManager.goToSleep(SystemClock.uptimeMillis());
+            ITelephony telephonyService = getTelephonyService();
+            try {
+                if(telephonyService != null && telephonyService.isIdle()) {
+                    mPowerManager.goToSleep(SystemClock.uptimeMillis());
+                }
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
         }
     }
 
