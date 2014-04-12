@@ -374,8 +374,7 @@ public class KeyguardViewManager {
                             Bitmap bitmap = BitmapFactory.decodeFile(wallpaper);
                             d = new BitmapDrawable(mContext.getResources(), bitmap);
                             mCustomBackground = d;
-                        } catch (IllegalArgumentException e) {
-                          // Do Nothing
+                        } catch (Exception e) {
                         }
                         break;
                     case 2:
