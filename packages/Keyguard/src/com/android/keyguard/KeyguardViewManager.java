@@ -363,11 +363,10 @@ public class KeyguardViewManager {
                 }
                 mCustomBackground = d;
                 computeCustomBackgroundBounds(mCustomBackground);
-                invalidate();
+                setBackground(mBackgroundDrawable);
             } else {
-                if (d == null) {
-                    mCustomBackground = null;
-                    setBackground(mBackgroundDrawable);
+                Drawable old = mCustomBackground;
+                if (old == null && d == null) {
                     return;
                 }
                 boolean newIsNull = mUserBackground == null;
@@ -385,19 +384,20 @@ public class KeyguardViewManager {
                 computeCustomBackgroundBounds(d);
                 Bitmap b = Bitmap.createBitmap(getWidth(), getHeight(), Bitmap.Config.ARGB_8888);
                 Canvas c = new Canvas(b);
-                mBackgroundDrawable.draw(c);
+                drawToCanvas(c, d);
 
-                Drawable dd = new BitmapDrawable(b);
+                Drawable dd = new BitmapDrawable(mContext.getResources(), b);
 
-                mTransitionBackground = new TransitionDrawable(new Drawable[]{old, dd});
+                mTransitionBackground = new TransitionDrawable(new Drawable[] {old, dd});
                 mTransitionBackground.setCrossFadeEnabled(true);
                 setBackground(mTransitionBackground);
 
                 mTransitionBackground.startTransition(200);
 
-                mCustomBackground = dd;
-                invalidate();
+                mCustomBackground = newIsNull ? null : dd;
+
             }
+            invalidate();
         }
 
         private void computeCustomBackgroundBounds(Drawable background) {
