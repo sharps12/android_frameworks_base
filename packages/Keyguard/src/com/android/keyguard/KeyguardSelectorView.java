@@ -224,15 +224,13 @@ public class KeyguardSelectorView extends LinearLayout implements KeyguardSecuri
         mGlowPadView = (GlowPadView) findViewById(R.id.glow_pad_view);
         mGlowPadView.setOnTriggerListener(mOnTriggerListener);
 
-        Bitmap lock = null;
+        Drawable lock = null;
 
         if (lockIcon != null && lockIcon.length() > 0) {
-            File f = new File(lockIcon);
+            File f = new File(Uri.parse(lockIcon).getPath());
             if (f.exists()) {
-                BitmapFactory.Options options = new BitmapFactory.Options();
-                options.inPreferredConfig = Bitmap.Config.ARGB_8888;
-                lock = BitmapFactory.decodeFile(lockIcon, options);
-
+                lock = new BitmapDrawable(
+                        mContext.getResources(), f.getAbsolutePath());
                 if (Settings.Secure.getIntForUser(
                         mContext.getContentResolver(),
                         Settings.Secure.LOCKSCREEN_COLORIZE_LOCK, 0,
