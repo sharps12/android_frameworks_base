@@ -26,7 +26,7 @@
     <string name="gigabyteShort" msgid="3259882455212193214">"GB"</string>
     <string name="terabyteShort" msgid="231613018159186962">"TB"</string>
     <string name="petabyteShort" msgid="5637816680144990219">"PB"</string>
-    <string name="fileSizeSuffix" msgid="9164292791500531949">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g>"</string>
+    <string name="fileSizeSuffix" msgid="9164292791500531949">"<xliff:g id="NUMBER">%1$s</xliff:g> <xliff:g id="UNIT">%2$s</xliff:g>"</string>
     <string name="untitled" msgid="4638956954852782576">"&lt;Bez nosaukuma&gt;"</string>
     <string name="ellipsis" msgid="7899829516048813237">"…"</string>
     <string name="ellipsis_two_dots" msgid="1228078994866030736">"‥"</string>
@@ -43,21 +43,21 @@
     <string name="serviceErased" msgid="1288584695297200972">"Dzēšana bija veiksmīga."</string>
     <string name="passwordIncorrect" msgid="7612208839450128715">"Nepareiza parole."</string>
     <string name="mmiComplete" msgid="8232527495411698359">"MMI ir pabeigts."</string>
-    <string name="badPin" msgid="9015277645546710014">"Ievadītais iepriekšējais PIN nav pareizs."</string>
-    <string name="badPuk" msgid="5487257647081132201">"Ievadītais PUK kods nav pareizs."</string>
-    <string name="mismatchPin" msgid="609379054496863419">"Ievadītie PIN neatbilst."</string>
-    <string name="invalidPin" msgid="3850018445187475377">"Ierakstiet PIN, kas sastāv no 4 līdz 8 cipariem."</string>
-    <string name="invalidPuk" msgid="8761456210898036513">"Ierakstiet PUK kodu, kas sastāv no 8 vai vairāk cipariem."</string>
+    <string name="badPin" msgid="9015277645546710014">"Ievadītais iepriekšējais PIN nav pareizs."</string>
+    <string name="badPuk" msgid="5487257647081132201">"Ievadītais PUK kods nav pareizs."</string>
+    <string name="mismatchPin" msgid="609379054496863419">"Ievadītie PIN neatbilst."</string>
+    <string name="invalidPin" msgid="3850018445187475377">"Ierakstiet PIN, kas sastāv no 4 līdz 8 cipariem."</string>
+    <string name="invalidPuk" msgid="8761456210898036513">"Ierakstiet PUK kodu, kas sastāv no 8 vai vairāk cipariem."</string>
     <string name="needPuk" msgid="919668385956251611">"SIM karte ir bloķēta ar PUK kodu. Ierakstiet PUK kodu, lai to atbloķētu."</string>
     <string name="needPuk2" msgid="4526033371987193070">"Ierakstiet PUK2 kodu, lai atbloķētu SIM karti."</string>
-    <string name="enablePin" msgid="209412020907207950">"Neizdevās. Iespējojiet SIM/RUIM bloķēšanu."</string>
+    <string name="enablePin" msgid="209412020907207950">"Neizdevās. Iespējojiet SIM/RUIM bloķēšanu."</string>
   <plurals name="pinpuk_attempts">
-    <item quantity="one" msgid="6596245285809790142">"Varat mēģināt vēl <xliff:g id="NUMBER">%d</xliff:g> reizi, pirms SIM karte tiks bloķēta."</item>
-    <item quantity="other" msgid="7530597808358774740">"Varat mēģināt vēl <xliff:g id="NUMBER">%d</xliff:g> reizi(-es), pirms SIM karte tiks bloķēta."</item>
+    <item quantity="one" msgid="6596245285809790142">"Varat mēģināt vēl <xliff:g id="NUMBER">%d</xliff:g> reizi, pirms SIM karte tiks bloķēta."</item>
+    <item quantity="other" msgid="7530597808358774740">"Varat mēģināt vēl <xliff:g id="NUMBER">%d</xliff:g> reizi(-es), pirms SIM karte tiks bloķēta."</item>
   </plurals>
     <string name="imei" msgid="2625429890869005782">"IMEI"</string>
     <string name="meid" msgid="4841221237681254195">"MEID"</string>
-    <string name="ClipMmi" msgid="6952821216480289285">"Ienākošā zvana zvanītāja ID"</string>
+    <string name="ClipMmi" msgid="6952821216480289285">"Ienākošā zvana zvanītāja ID"</string>
     <string name="ClirMmi" msgid="7784673673446833091">"Izejošā zvana zvanītāja ID"</string>
     <string name="CfMmi" msgid="5123218989141573515">"Zvanu pāradresācija"</string>
     <string name="CwMmi" msgid="9129678056795016867">"Zvana gaidīšana"</string>
@@ -75,7 +75,7 @@
     <string name="CLIRDefaultOffNextCallOn" msgid="6179425182856418465">"Zvanītāja ID noklusējumi ir iestatīti uz Nav ierobežots. Nākamais zvans: ierobežots"</string>
     <string name="CLIRDefaultOffNextCallOff" msgid="2567998633124408552">"Zvanītāja ID noklusējumi ir iestatīti uz Nav ierobežots. Nākamais zvans: nav ierobežots"</string>
     <string name="serviceNotProvisioned" msgid="8614830180508686666">"Pakalpojums netiek nodrošināts."</string>
-    <string name="CLIRPermanent" msgid="3377371145926835671">"Zvanītāja ID iestatījumu nevar mainīt."</string>
+    <string name="CLIRPermanent" msgid="3377371145926835671">"Zvanītāja ID iestatījumu nevar mainīt."</string>
     <string name="RestrictedChangedTitle" msgid="5592189398956187498">"Ierobežotā piekļuve ir mainīta"</string>
     <string name="RestrictedOnData" msgid="8653794784690065540">"Datu pakalpojums ir bloķēts."</string>
     <string name="RestrictedOnEmergency" msgid="6581163779072833665">"Ārkārtas pakalpojums ir bloķēts."</string>
@@ -98,18 +98,18 @@
     <string name="roamingText2" msgid="8969929049081268115">"Viesabonēšanas indikators mirgo"</string>
     <string name="roamingText3" msgid="5148255027043943317">"Ārpus apkaimes"</string>
     <string name="roamingText4" msgid="8808456682550796530">"Ārpus ēkas"</string>
-    <string name="roamingText5" msgid="7604063252850354350">"Viesabonēšana — vēlamā sistēma"</string>
-    <string name="roamingText6" msgid="2059440825782871513">"Viesabonēšana — pieejamā sistēma"</string>
-    <string name="roamingText7" msgid="7112078724097233605">"Viesabonēšana — apvienības partneris"</string>
-    <string name="roamingText8" msgid="5989569778604089291">"Viesabonēšana — ekskluzīvs partneris"</string>
-    <string name="roamingText9" msgid="7969296811355152491">"Viesabonēšana — pakalpojuma pilnīga funkcionalitāte"</string>
-    <string name="roamingText10" msgid="3992906999815316417">"Viesabonēšana — pakalpojuma daļēja funkcionalitāte"</string>
+    <string name="roamingText5" msgid="7604063252850354350">"Viesabonēšana — vēlamā sistēma"</string>
+    <string name="roamingText6" msgid="2059440825782871513">"Viesabonēšana — pieejamā sistēma"</string>
+    <string name="roamingText7" msgid="7112078724097233605">"Viesabonēšana — apvienības partneris"</string>
+    <string name="roamingText8" msgid="5989569778604089291">"Viesabonēšana — ekskluzīvs partneris"</string>
+    <string name="roamingText9" msgid="7969296811355152491">"Viesabonēšana — pakalpojuma pilnīga funkcionalitāte"</string>
+    <string name="roamingText10" msgid="3992906999815316417">"Viesabonēšana — pakalpojuma daļēja funkcionalitāte"</string>
     <string name="roamingText11" msgid="4154476854426920970">"Viesabonēšanas reklāmkarogs ir ieslēgts."</string>
     <string name="roamingText12" msgid="1189071119992726320">"Viesabonēšanas reklāmkarogs ir izslēgts."</string>
     <string name="roamingTextSearching" msgid="8360141885972279963">"Pakalpojuma meklēšana"</string>
     <string name="cfTemplateNotForwarded" msgid="1683685883841272560">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: nav pāradresēts"</string>
     <string name="cfTemplateForwarded" msgid="1302922117498590521">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
-    <string name="cfTemplateForwardedTime" msgid="9206251736527085256">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g> pēc <xliff:g id="TIME_DELAY">{2}</xliff:g> sekundes(-ēm)"</string>
+    <string name="cfTemplateForwardedTime" msgid="9206251736527085256">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g> pēc <xliff:g id="TIME_DELAY">{2}</xliff:g> sekundes(-ēm)"</string>
     <string name="cfTemplateRegistered" msgid="5073237827620166285">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: nav pāradresēts"</string>
     <string name="cfTemplateRegisteredTime" msgid="6781621964320635172">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: nav pāradresēts"</string>
     <string name="fcComplete" msgid="3118848230966886575">"Funkcijas kods ir pabeigts."</string>
@@ -233,8 +233,8 @@
     <string name="permgrouplab_display" msgid="4279909676036402636">"Citu lietojumprogrammu lietotāja saskarnes"</string>
     <string name="permgroupdesc_display" msgid="6051002031933013714">"Ietekme uz citu lietojumprogrammu lietotāja saskarni."</string>
     <string name="permgrouplab_storage" msgid="1971118770546336966">"Krātuve"</string>
-    <string name="permgroupdesc_storage" product="nosdcard" msgid="7442318502446874999">"Piekļūst USB krātuvei."</string>
-    <string name="permgroupdesc_storage" product="default" msgid="9203302214915355774">"Piekļūstiet SD kartei."</string>
+    <string name="permgroupdesc_storage" product="nosdcard" msgid="7442318502446874999">"Piekļūst USB krātuvei."</string>
+    <string name="permgroupdesc_storage" product="default" msgid="9203302214915355774">"Piekļūstiet SD kartei."</string>
     <string name="permgrouplab_accessibilityFeatures" msgid="7919025602283593907">"Pieejamības funkcijas"</string>
     <string name="permgroupdesc_accessibilityFeatures" msgid="4205196881678144335">"Funkcijas, kuras palīgtehnoloģija var pieprasīt."</string>
     <string name="capability_title_canRetrieveWindowContent" msgid="3901717936930170320">"Izgūt loga saturu."</string>
@@ -256,10 +256,10 @@
     <string name="permlab_uninstall_shortcut" msgid="4729634524044003699">"atinstalēt saīsnes"</string>
     <string name="permdesc_uninstall_shortcut" msgid="6745743474265057975">"Ļauj lietojumprogrammai noņemt saīsnes no sākuma ekrāna, nejautājot lietotājam."</string>
     <string name="permlab_processOutgoingCalls" msgid="3906007831192990946">"pārmaršrutēt izejošos zvanus"</string>
-    <string name="permdesc_processOutgoingCalls" msgid="5331318931937402040">"Ļauj lietotnei apstrādāt izejošos zvanus un mainīt numuru, uz kuru tiks zvanīts. Ar šo atļauju lietotne var pārraudzīt, novirzīt vai neatļaut izejošos zvanus."</string>
-    <string name="permlab_receiveSms" msgid="8673471768947895082">"saņemt īsziņas (SMS)"</string>
+    <string name="permdesc_processOutgoingCalls" msgid="5156385005547315876">"Ļauj lietotnei skatīt ievadīto tālruņa numuru izejošā zvana laikā un piedāvā iespēju šo zvanu pāradresēt uz citu numuru vai vispār pārtraukt zvanu."</string>
+    <string name="permlab_receiveSms" msgid="8673471768947895082">"saņemt īsziņas (SMS)"</string>
     <string name="permdesc_receiveSms" msgid="6424387754228766939">"Ļauj lietotnei saņemt un apstrādāt īsziņas. Tas nozīmē, ka lietotne var pārraudzīt vai dzēst uz jūsu ierīci nosūtītos ziņojumus, neparādot tos jums."</string>
-    <string name="permlab_receiveMms" msgid="1821317344668257098">"saņemt ziņojumus (MMS)"</string>
+    <string name="permlab_receiveMms" msgid="1821317344668257098">"saņemt ziņojumus (MMS)"</string>
     <string name="permdesc_receiveMms" msgid="533019437263212260">"Ļauj lietotnei saņemt un apstrādāt multiziņas. Tas nozīmē, ka lietotne var pārraudzīt vai dzēst uz jūsu ierīci nosūtītos ziņojumus, neparādot tos jums."</string>
     <string name="permlab_receiveEmergencyBroadcast" msgid="1803477660846288089">"Ārkārtas apraižu saņemšana"</string>
     <string name="permdesc_receiveEmergencyBroadcast" msgid="848524070262431974">"Ļauj lietotnei saņemt un apstrādāt ārkārtas apraides ziņojumus. Šī atļauja attiecas tikai uz sistēmas lietotnēm."</string>
@@ -273,9 +273,9 @@
     <string name="permdesc_readSms" product="tablet" msgid="2467981548684735522">"Ļauj lietotnei lasīt planšetdatorā vai SIM kartē saglabātās īsziņas. Tas ļauj lietotnei lasīt visas īsziņas, neraugoties uz to saturu vai konfidencialitāti."</string>
     <string name="permdesc_readSms" product="default" msgid="3695967533457240550">"Ļauj lietotnei lasīt tālrunī vai SIM kartē saglabātās īsziņas. Tas ļauj lietotnei lasīt visas īsziņas, neraugoties uz to saturu vai konfidencialitāti."</string>
     <string name="permlab_writeSms" msgid="3216950472636214774">"rediģēt ziņojumus (SMS vai MMS)"</string>
-    <string name="permdesc_writeSms" product="tablet" msgid="5160413947794501538">"Ļauj lietotnei rakstīt īsziņās, kas ir saglabātas planšetdatorā vai SIM kartē. Ļaunprātīgas lietotnes var dzēst jūsu ziņojumus."</string>
-    <string name="permdesc_writeSms" product="default" msgid="7268668709052328567">"Ļauj lietotnei rakstīt īsziņās, kas ir saglabātas tālrunī vai SIM kartē. Ļaunprātīgas lietotnes var dzēst jūsu ziņojumus."</string>
-    <string name="permlab_receiveWapPush" msgid="5991398711936590410">"saņemt īsziņas (WAP)"</string>
+    <string name="permdesc_writeSms" product="tablet" msgid="5160413947794501538">"Ļauj lietotnei rakstīt īsziņās, kas ir saglabātas planšetdatorā vai SIM kartē. Ļaunprātīgas lietotnes var dzēst jūsu ziņojumus."</string>
+    <string name="permdesc_writeSms" product="default" msgid="7268668709052328567">"Ļauj lietotnei rakstīt īsziņās, kas ir saglabātas tālrunī vai SIM kartē. Ļaunprātīgas lietotnes var dzēst jūsu ziņojumus."</string>
+    <string name="permlab_receiveWapPush" msgid="5991398711936590410">"saņemt īsziņas (WAP)"</string>
     <string name="permdesc_receiveWapPush" msgid="748232190220583385">"Ļauj lietotnei saņemt un apstrādāt WAP ziņojumus. Šī atļauja ietver iespēju pārraudzīt vai dzēst jums nosūtītos ziņojumus, neparādot tos jums."</string>
     <string name="permlab_getTasks" msgid="6466095396623933906">"izgūt izmantotās lietotnes"</string>
     <string name="permdesc_getTasks" msgid="7454215995847658102">"Ļauj lietotnei izgūt informāciju par pašreiz un nesen darbinātajiem uzdevumiem. Tādējādi lietotne var atklāt informāciju par ierīcē izmantotajām lietojumprogrammām."</string>
@@ -318,7 +318,7 @@
     <string name="permlab_retrieve_window_info" msgid="8532295199112519378">"Izgūt informāciju par logiem"</string>
     <string name="permdesc_retrieve_window_info" msgid="4998836370424186849">"Ļauj lietojumprogrammai no logu pārvaldnieka izgūt informāciju par logiem. Ļaunprātīgas lietotnes var izgūt informāciju, kas ir paredzēta iekšējai izmantošanai sistēmā."</string>
     <string name="permlab_filter_events" msgid="8675535648807427389">"Filtrēt notikumus"</string>
-    <string name="permdesc_filter_events" msgid="8006236315888347680">"Ļauj lietojumprogrammai reģistrēt ieejas filtru, kas filtrē visu lietotāja notikumu straumi, pirms notikumi tiek nosūtīti. Ļaunprātīga lietotne var kontrolēt sistēmas lietotāja saskarni, nejautājot lietotājam."</string>
+    <string name="permdesc_filter_events" msgid="8006236315888347680">"Ļauj lietojumprogrammai reģistrēt ieejas filtru, kas filtrē visu lietotāja notikumu straumi, pirms notikumi tiek nosūtīti. Ļaunprātīga lietotne var kontrolēt sistēmas lietotāja saskarni, nejautājot lietotājam."</string>
     <string name="permlab_magnify_display" msgid="5973626738170618775">"displeja palielināšana"</string>
     <string name="permdesc_magnify_display" msgid="7121235684515003792">"Ļauj lietojumprogrammai palielināt displeja saturu. Ļaunprātīgas lietotnes var pārveidot displeja saturu tā, ka ierīce kļūst nelietojama."</string>
     <string name="permlab_shutdown" msgid="7185747824038909016">"daļēja izslēgšana"</string>
@@ -358,7 +358,7 @@
     <string name="permlab_setAnimationScale" msgid="2805103241153907174">"pārveidot globālo animācijas ātrumu"</string>
     <string name="permdesc_setAnimationScale" msgid="7690063428924343571">"Ļauj lietotnei jebkurā laikā mainīt vispārējo animācijas ātrumu (lēnākām vai ātrākām animācijām)."</string>
     <string name="permlab_manageAppTokens" msgid="1286505717050121370">"pārvaldīt lietotnes pilnvaras"</string>
-    <string name="permdesc_manageAppTokens" msgid="8043431713014395671">"Ļauj lietotnei veidot un pārvaldīt savas pilnvaras, apejot to parasto “Z kārtošanu”. Parastajām lietotnēm tas nekad nav nepieciešams."</string>
+    <string name="permdesc_manageAppTokens" msgid="8043431713014395671">"Ļauj lietotnei veidot un pārvaldīt savas pilnvaras, apejot to parasto “Z kārtošanu”. Parastajām lietotnēm tas nekad nav nepieciešams."</string>
     <string name="permlab_freezeScreen" msgid="4708181184441880175">"attēla “iesaldēšana”"</string>
     <string name="permdesc_freezeScreen" msgid="8558923789222670064">"Ļauj lietojumprogrammai īslaicīgi “iesaldēt” attēlu, lai pārietu uz pilnekrāna režīmu."</string>
     <string name="permlab_injectEvents" msgid="1378746584023586600">"nospiest taustiņus un vadības pogas"</string>
@@ -374,8 +374,8 @@
     <string name="permdesc_bindPrintService" msgid="7960067623209111135">"Ļauj īpašniekam izveidot savienojumu ar drukāšanas pakalpojuma augšējā līmeņa saskarni. Parastajām lietotnēm tas nekad nav nepieciešams."</string>
     <string name="permlab_bindPrintSpoolerService" msgid="6807762783744125954">"izveidot savienojumu ar drukas spolētāja pakalpojumu"</string>
     <string name="permdesc_bindPrintSpoolerService" msgid="3680552285933318372">"Ļauj īpašniekam izveidot savienojumu ar drukas spolētāja pakalpojuma augšējā līmeņa saskarni. Parastajām lietotnēm tas nekad nav nepieciešams."</string>
-    <string name="permlab_bindNfcService" msgid="2752731300419410724">"Saistīt ar TDLS pakalpojumu"</string>
-    <string name="permdesc_bindNfcService" msgid="6120647629174066862">"Ļauj īpašniekam saistīt lietojumprogrammas, kas emulē TDLS kartes. Parastajām lietotnēm šī atļauja nav nepieciešama."</string>
+    <string name="permlab_bindNfcService" msgid="2752731300419410724">"Saistīt ar TDLS pakalpojumu"</string>
+    <string name="permdesc_bindNfcService" msgid="6120647629174066862">"Ļauj īpašniekam saistīt lietojumprogrammas, kas emulē TDLS kartes. Parastajām lietotnēm šī atļauja nav nepieciešama."</string>
     <string name="permlab_bindTextService" msgid="7358378401915287938">"saistīt ar īsziņu pakalpojumu"</string>
     <string name="permdesc_bindTextService" msgid="8151968910973998670">"Ļauj īpašniekam veikt saistīšanu ar īsziņu pakalpojuma augstākā līmeņa saskarni (piem., SpellCheckerService). Parastajām lietotnēm tas nekad nav nepieciešams."</string>
     <string name="permlab_bindVpnService" msgid="4708596021161473255">"saistīt ar VPN pakalpojumu"</string>
@@ -422,7 +422,7 @@
     <string name="permlab_anyCodecForPlayback" msgid="715805555823881818">"multivides failu atskaņošanai izmantot jebkuru dekodētāju"</string>
     <string name="permdesc_anyCodecForPlayback" msgid="8283912488433189010">"Ļauj lietotnei izmantot jebkuru instalētu multivides failu dekodētāju, lai dekodētu failus atskaņošanai."</string>
     <string name="permlab_manageCaCertificates" msgid="1678391896786882014">"Uzticamo akreditācijas datu pārvaldība"</string>
-    <string name="permdesc_manageCaCertificates" msgid="4015644047196937014">"Ļauj lietotnei instalēt un atinstalēt CA sertifikātus kā uzticamus akreditācijas datus."</string>
+    <string name="permdesc_manageCaCertificates" msgid="4015644047196937014">"Ļauj lietotnei instalēt un atinstalēt CA sertifikātus kā uzticamus akreditācijas datus."</string>
     <string name="permlab_diagnostic" msgid="8076743953908000342">"lasīt grupas “diag” resursus un rakstīt tajos"</string>
     <string name="permdesc_diagnostic" msgid="6608295692002452283">"Ļauj lietotnei lasīt un rakstīt jebkurā resursā, kas pieder diagnostikas grupai, piemēram, failiem mapē /dev. Tas var ietekmēt sistēmas stabilitāti un drošību. Var izmantot ražotājs vai operators TIKAI konkrētas aparatūras diagnostikai."</string>
     <string name="permlab_changeComponentState" msgid="6335576775711095931">"iespējot vai atspējot lietotnes komponentus"</string>
@@ -504,8 +504,8 @@
     <string name="permdesc_recordAudio" msgid="4906839301087980680">"Ļauj lietotnei ierakstīt audio, izmantojot mikrofonu. Šī atļauja ļauj lietotnei ierakstīt audio jebkurā brīdī bez jūsu apstiprinājuma."</string>
     <string name="permlab_camera" msgid="3616391919559751192">"uzņemt attēlus un videoklipus"</string>
     <string name="permdesc_camera" msgid="8497216524735535009">"Ļauj lietotnei uzņemt attēlus un videoklipus ar kameru. Ar šo atļauju lietotne var jebkurā brīdī izmantot kameru bez jūsu apstiprinājuma."</string>
-    <string name="permlab_cameraDisableTransmitLed" msgid="2651072630501126222">"Atspējot pārraidīšanas LED indikatoru, kad kamera tiek izmantota"</string>
-    <string name="permdesc_cameraDisableTransmitLed" msgid="4764585465480295341">"Ļauj iepriekš instalētai sistēmas lietojumprogrammai atspējot LED indikatoru, izmantojot kameru."</string>
+    <string name="permlab_cameraDisableTransmitLed" msgid="2651072630501126222">"Atspējot pārraidīšanas LED indikatoru, kad kamera tiek izmantota"</string>
+    <string name="permdesc_cameraDisableTransmitLed" msgid="4764585465480295341">"Ļauj iepriekš instalētai sistēmas lietojumprogrammai atspējot LED indikatoru, izmantojot kameru."</string>
     <string name="permlab_brick" product="tablet" msgid="2961292205764488304">"neatgriezeniski atspējot planšetdatoru"</string>
     <string name="permlab_brick" product="default" msgid="8337817093326370537">"neatgriezeniski atspējot tālruni"</string>
     <string name="permdesc_brick" product="tablet" msgid="4334818808001699530">"Ļauj lietotnei neatgriezeniski atspējot visu planšetdatoru. Tas ir ļoti bīstami."</string>
@@ -514,11 +514,11 @@
     <string name="permlab_reboot" product="default" msgid="2898560872462638242">"atsāknēt tālruni"</string>
     <string name="permdesc_reboot" product="tablet" msgid="8172056180063700741">"Ļauj lietotnei veikt planšetdatora piespiedu atsāknēšanu."</string>
     <string name="permdesc_reboot" product="default" msgid="5326008124289989969">"Ļauj lietotnei atsāknēt tālruni."</string>
-    <string name="permlab_mount_unmount_filesystems" product="nosdcard" msgid="2927361537942591841">"piekļūt USB atm. failu sistēmai"</string>
-    <string name="permlab_mount_unmount_filesystems" product="default" msgid="4402305049890953810">"piekļūt SD kartes failu sistēmai"</string>
+    <string name="permlab_mount_unmount_filesystems" product="nosdcard" msgid="2927361537942591841">"piekļūt USB atm. failu sistēmai"</string>
+    <string name="permlab_mount_unmount_filesystems" product="default" msgid="4402305049890953810">"piekļūt SD kartes failu sistēmai"</string>
     <string name="permdesc_mount_unmount_filesystems" msgid="1829290701658992347">"Ļauj lietotnei pievienot un atvienot failu sistēmas noņemamai atmiņai."</string>
-    <string name="permlab_mount_format_filesystems" product="nosdcard" msgid="6227819582624904972">"dzēst USB atmiņu"</string>
-    <string name="permlab_mount_format_filesystems" product="default" msgid="262582698639274056">"dzēst SD karti"</string>
+    <string name="permlab_mount_format_filesystems" product="nosdcard" msgid="6227819582624904972">"dzēst USB atmiņu"</string>
+    <string name="permlab_mount_format_filesystems" product="default" msgid="262582698639274056">"dzēst SD karti"</string>
     <string name="permdesc_mount_format_filesystems" msgid="8784268246779198627">"Ļauj lietotnei formatēt noņemamu atmiņu."</string>
     <string name="permlab_asec_access" msgid="3411338632002193846">"iegūt informāciju par iekšējo krātuvi"</string>
     <string name="permdesc_asec_access" msgid="3094563844593878548">"Ļauj lietotnei iegūt informāciju par iekšējo atmiņu."</string>
@@ -534,10 +534,10 @@
     <string name="permdesc_vibrate" msgid="6284989245902300945">"Ļauj lietotnei kontrolēt vibrosignālu."</string>
     <string name="permlab_flashlight" msgid="2155920810121984215">"kontrolēt uzliesmojumu"</string>
     <string name="permdesc_flashlight" msgid="6522284794568368310">"Ļauj lietotnei kontrolēt zibspuldzi."</string>
-    <string name="permlab_manageUsb" msgid="1113453430645402723">"USB ierīču preferenču un atļauju pārvaldība"</string>
-    <string name="permdesc_manageUsb" msgid="7776155430218239833">"Ļauj lietotnei pārvaldīt preferences un atļaujas saistībā ar USB ierīcēm."</string>
+    <string name="permlab_manageUsb" msgid="1113453430645402723">"USB ierīču preferenču un atļauju pārvaldība"</string>
+    <string name="permdesc_manageUsb" msgid="7776155430218239833">"Ļauj lietotnei pārvaldīt preferences un atļaujas saistībā ar USB ierīcēm."</string>
     <string name="permlab_accessMtp" msgid="4953468676795917042">"Ieviests MTP protokols"</string>
-    <string name="permdesc_accessMtp" msgid="6532961200486791570">"Ļauj piekļūt kodola MTP dzinim, lai ieviestu MTP USB protokolu."</string>
+    <string name="permdesc_accessMtp" msgid="6532961200486791570">"Ļauj piekļūt kodola MTP dzinim, lai ieviestu MTP USB protokolu."</string>
     <string name="permlab_hardware_test" msgid="4148290860400659146">"pārbaudīt aparatūru"</string>
     <string name="permdesc_hardware_test" msgid="6597964191208016605">"Ļauj lietotnei kontrolēt dažādas perifērijas ierīces, lai pārbaudītu aparatūru."</string>
     <string name="permlab_callPhone" msgid="3925836347681847954">"tieši zvanīt uz tālruņa numuriem"</string>
@@ -599,16 +599,16 @@
     <string name="permlab_createNetworkSockets" msgid="8018758136404323658">"pilnīga piekļuve tīklam"</string>
     <string name="permdesc_createNetworkSockets" msgid="3403062187779724185">"Ļauj lietotnei izveidot tīkla ligzdas un izmantot pielāgotus tīkla protokolus. Pārlūkprogramma un citas lietojumprogrammas nodrošina līdzekļus, kas nepieciešami, lai sūtītu datus internetā, tāpēc šī atļauja nav nepieciešama, lai sūtītu datus internetā."</string>
     <string name="permlab_writeApnSettings" msgid="505660159675751896">"tīkla iestatījumu un datplūsmas mainīšana/pārtveršana"</string>
-    <string name="permdesc_writeApnSettings" msgid="5333798886412714193">"Ļauj lietotnei mainīt tīkla iestatījumus, kā arī pārķert un pārbaudīt visu tīkla datplūsmu, piemēram, mainīt starpniekserveri un jebkura APN portu. Ļaunprātīgas lietotnes var pārraudzīt, novirzīt vai modificēt tīkla paketes bez jūsu ziņas."</string>
+    <string name="permdesc_writeApnSettings" msgid="5333798886412714193">"Ļauj lietotnei mainīt tīkla iestatījumus, kā arī pārķert un pārbaudīt visu tīkla datplūsmu, piemēram, mainīt starpniekserveri un jebkura APN portu. Ļaunprātīgas lietotnes var pārraudzīt, novirzīt vai modificēt tīkla paketes bez jūsu ziņas."</string>
     <string name="permlab_changeNetworkState" msgid="958884291454327309">"mainīt tīkla savienojamību"</string>
     <string name="permdesc_changeNetworkState" msgid="6789123912476416214">"Ļauj lietotnei mainīt tīkla savienojamības statusu."</string>
     <string name="permlab_changeTetherState" msgid="5952584964373017960">"mainīt piesaistes savienojamību"</string>
     <string name="permdesc_changeTetherState" msgid="1524441344412319780">"Ļauj lietotnei mainīt piesaistes tīkla savienojamības statusu."</string>
     <string name="permlab_changeBackgroundDataSetting" msgid="1400666012671648741">"mainīt fona datu lietojuma iestatījumu"</string>
     <string name="permdesc_changeBackgroundDataSetting" msgid="5347729578468744379">"Ļauj lietotnei mainīt fona datu lietošanas iestatījumu."</string>
-    <string name="permlab_accessWifiState" msgid="5202012949247040011">"skatīt Wi-Fi savienojumus"</string>
+    <string name="permlab_accessWifiState" msgid="5202012949247040011">"skatīt Wi-Fi savienojumus"</string>
     <string name="permdesc_accessWifiState" msgid="5002798077387803726">"Ļauj lietotnei skatīt informāciju par Wi-Fi tīklošanu, piemēram, par to, vai Wi-Fi ir iespējots, kā arī pievienoto Wi-Fi ierīču nosaukumus."</string>
-    <string name="permlab_changeWifiState" msgid="6550641188749128035">"izveidot un pārtraukt Wi-Fi savienojumu"</string>
+    <string name="permlab_changeWifiState" msgid="6550641188749128035">"izveidot un pārtraukt Wi-Fi savienojumu"</string>
     <string name="permdesc_changeWifiState" msgid="7137950297386127533">"Ļauj lietotnei izveidot savienojumu ar Wi-Fi piekļuves punktiem un pārtraukt savienojumus ar tiem, kā arī veikt izmaiņas ierīces Wi-Fi tīklu konfigurācijā."</string>
     <string name="permlab_changeWifiMulticastState" msgid="1368253871483254784">"atļaut Wi-Fi multiraides uztveršanu"</string>
     <string name="permdesc_changeWifiMulticastState" product="tablet" msgid="7969774021256336548">"Ļauj lietotnei saņemt sūtījumus, kas sūtīti uz visām ierīcēm Wi-Fi tīklā, izmantojot multiraides adreses, nevis tikai jūsu planšetdatoru. Tādējādi tiek patērēts vairāk enerģijas nekā režīmā, kas nav multiraide."</string>
@@ -619,7 +619,7 @@
     <string name="permlab_bluetoothPriv" msgid="4009494246009513828">"Bluetooth ierīču savienošana pārī, izmantojot lietojumprogrammu"</string>
     <string name="permdesc_bluetoothPriv" product="tablet" msgid="8045735193417468857">"Ļauj lietotnei izveidot savienojumu pārī ar tālvadības ierīcēm bez lietotāju mijiedarbības."</string>
     <string name="permdesc_bluetoothPriv" product="default" msgid="8045735193417468857">"Ļauj lietotnei izveidot savienojumu pārī ar tālvadības ierīcēm bez lietotāju mijiedarbības."</string>
-    <string name="permlab_accessWimaxState" msgid="4195907010610205703">"WiMAX savienojuma izveide un pārtraukšana"</string>
+    <string name="permlab_accessWimaxState" msgid="4195907010610205703">"WiMAX savienojuma izveide un pārtraukšana"</string>
     <string name="permdesc_accessWimaxState" msgid="6360102877261978887">"Ļauj lietotnei noteikt, vai WiMAX ir iespējots, un sniedz informāciju par visiem WiMAX tīkliem, ar kuriem ir izveidots savienojums."</string>
     <string name="permlab_changeWimaxState" msgid="2405042267131496579">"WiMAX statusa mainīšana"</string>
     <string name="permdesc_changeWimaxState" product="tablet" msgid="3156456504084201805">"Ļauj lietotnei izveidot un pārtraukt planšetdatora savienojumu ar WiMAX tīkliem."</string>
@@ -645,14 +645,14 @@
     <string name="permdesc_readDictionary" msgid="659614600338904243">"Ļauj lietotnei lasīt visus vārdus, nosaukumus un frāzes, ko lietotājs ir saglabājis lietotāja vārdnīcā."</string>
     <string name="permlab_writeDictionary" msgid="2183110402314441106">"vārdu pievienošana lietotāja noteiktai vārdnīcai"</string>
     <string name="permdesc_writeDictionary" msgid="8185385716255065291">"Ļauj lietotnei rakstīt jaunus vārdus lietotāja vārdnīcā."</string>
-    <string name="permlab_sdcardRead" product="nosdcard" msgid="367275095159405468">"lasīt USB atmiņas saturu"</string>
-    <string name="permlab_sdcardRead" product="default" msgid="2188156462934977940">"lasīt SD kartes saturu"</string>
-    <string name="permdesc_sdcardRead" product="nosdcard" msgid="3446988712598386079">"Ļauj liet. lasīt USB atm. sat."</string>
-    <string name="permdesc_sdcardRead" product="default" msgid="2607362473654975411">"Ļauj lietotnei lasīt SD kartes saturu."</string>
-    <string name="permlab_sdcardWrite" product="nosdcard" msgid="8485979062254666748">"mainīt vai dzēst USB atm. sat."</string>
-    <string name="permlab_sdcardWrite" product="default" msgid="8805693630050458763">"SD kartes satura pārveidošana vai dzēšana"</string>
-    <string name="permdesc_sdcardWrite" product="nosdcard" msgid="6175406299445710888">"Ļauj lietotnei rakstīt USB atmiņā."</string>
-    <string name="permdesc_sdcardWrite" product="default" msgid="4337417790936632090">"Ļauj lietotnei rakstīt SD kartē."</string>
+    <string name="permlab_sdcardRead" product="nosdcard" msgid="367275095159405468">"lasīt USB atmiņas saturu"</string>
+    <string name="permlab_sdcardRead" product="default" msgid="2188156462934977940">"lasīt SD kartes saturu"</string>
+    <string name="permdesc_sdcardRead" product="nosdcard" msgid="3446988712598386079">"Ļauj liet. lasīt USB atm. sat."</string>
+    <string name="permdesc_sdcardRead" product="default" msgid="2607362473654975411">"Ļauj lietotnei lasīt SD kartes saturu."</string>
+    <string name="permlab_sdcardWrite" product="nosdcard" msgid="8485979062254666748">"mainīt vai dzēst USB atm. sat."</string>
+    <string name="permlab_sdcardWrite" product="default" msgid="8805693630050458763">"SD kartes satura pārveidošana vai dzēšana"</string>
+    <string name="permdesc_sdcardWrite" product="nosdcard" msgid="6175406299445710888">"Ļauj lietotnei rakstīt USB atmiņā."</string>
+    <string name="permdesc_sdcardWrite" product="default" msgid="4337417790936632090">"Ļauj lietotnei rakstīt SD kartē."</string>
     <string name="permlab_mediaStorageWrite" product="default" msgid="6859839199706879015">"pārv./dz.datu n.iekš.atm.sat."</string>
     <string name="permdesc_mediaStorageWrite" product="default" msgid="8189160597698529185">"Ļauj lietotnei modificēt datu nesēja iekšējās atmiņas saturu."</string>
     <string name="permlab_manageDocs" product="default" msgid="5778318598448849829">"Dokumentu krātuves pārvaldība"</string>
@@ -662,7 +662,7 @@
     <string name="permlab_cache_filesystem" msgid="5656487264819669824">"piekļūt kešatmiņas failu sistēmai"</string>
     <string name="permdesc_cache_filesystem" msgid="5578967642265550955">"Ļauj lietotnei lasīt un rakstīt kešatmiņas failu sistēmā."</string>
     <string name="permlab_use_sip" msgid="5986952362795870502">"veikt/saņemt interneta zvanus"</string>
-    <string name="permdesc_use_sip" msgid="4717632000062674294">"Ļauj lietotnei izmantot SIP pakalpojumu, lai veiktu/saņemtu interneta zvanus."</string>
+    <string name="permdesc_use_sip" msgid="4717632000062674294">"Ļauj lietotnei izmantot SIP pakalpojumu, lai veiktu/saņemtu interneta zvanus."</string>
     <string name="permlab_bind_call_service" msgid="6724009726671246551">"mijiedarbība ar zvana laikā rādītu ekrānu"</string>
     <string name="permdesc_bind_call_service" msgid="8732547662442572435">"Ļauj lietotnei kontrolēt, kad un kā lietotājam ir redzams zvana laikā redzamais ekrāns."</string>
     <string name="permlab_readNetworkUsageHistory" msgid="7862593283611493232">"lasīt informāciju par iepriekšēju tīkla izmantošanu"</string>
@@ -816,15 +816,16 @@
     <string name="sipAddressTypeHome" msgid="6093598181069359295">"Mājās"</string>
     <string name="sipAddressTypeWork" msgid="6920725730797099047">"Darbs"</string>
     <string name="sipAddressTypeOther" msgid="4408436162950119849">"Cits"</string>
-    <string name="keyguard_password_enter_pin_code" msgid="3037685796058495017">"Ievadiet PIN kodu."</string>
-    <string name="keyguard_password_enter_puk_code" msgid="4800725266925845333">"Ievadiet PUK kodu un jaunu PIN kodu."</string>
-    <string name="keyguard_password_enter_puk_prompt" msgid="1341112146710087048">"PUK kods"</string>
-    <string name="keyguard_password_enter_pin_prompt" msgid="8027680321614196258">"Jauns PIN kods"</string>
+    <string name="quick_contacts_not_available" msgid="746098007828579688">"Netika atrasta neviena lietojumprogramma, ar kuru skatīt šo kontaktpersonu."</string>
+    <string name="keyguard_password_enter_pin_code" msgid="3037685796058495017">"Ievadiet PIN kodu."</string>
+    <string name="keyguard_password_enter_puk_code" msgid="4800725266925845333">"Ievadiet PUK kodu un jaunu PIN kodu."</string>
+    <string name="keyguard_password_enter_puk_prompt" msgid="1341112146710087048">"PUK kods"</string>
+    <string name="keyguard_password_enter_pin_prompt" msgid="8027680321614196258">"Jauns PIN kods"</string>
     <string name="keyguard_password_entry_touch_hint" msgid="7858547464982981384"><font size="17">"Pieskarieties, lai ievadītu paroli"</font>"."</string>
     <string name="keyguard_password_enter_password_code" msgid="1054721668279049780">"Ievadiet paroli, lai atbloķētu."</string>
     <string name="keyguard_password_enter_pin_password_code" msgid="6391755146112503443">"Lai atbloķētu, ievadiet PIN."</string>
-    <string name="keyguard_password_wrong_pin_code" msgid="2422225591006134936">"PIN kods nav pareizs."</string>
-    <string name="keyguard_label_text" msgid="861796461028298424">"Lai atbloķētu, nospiediet Izvēlne, pēc tam 0."</string>
+    <string name="keyguard_password_wrong_pin_code" msgid="2422225591006134936">"PIN kods nav pareizs."</string>
+    <string name="keyguard_label_text" msgid="861796461028298424">"Lai atbloķētu, nospiediet Izvēlne, pēc tam 0."</string>
     <string name="emergency_call_dialog_number_for_display" msgid="696192103195090970">"Ārkārtas numurs"</string>
     <string name="lockscreen_carrier_default" msgid="8963839242565653192">"Nav pakalpojuma."</string>
     <string name="lockscreen_screen_locked" msgid="7288443074806832904">"Ekrāns ir bloķēts."</string>
@@ -841,13 +842,13 @@
     <string name="lockscreen_charged" msgid="321635745684060624">"Uzlādēts"</string>
     <string name="lockscreen_battery_short" msgid="4477264849386850266">"<xliff:g id="NUMBER">%d</xliff:g><xliff:g id="PERCENT">%%</xliff:g>"</string>
     <string name="lockscreen_low_battery" msgid="1482873981919249740">"Pievienojiet uzlādes ierīci."</string>
-    <string name="lockscreen_missing_sim_message_short" msgid="5099439277819215399">"Nav SIM kartes"</string>
-    <string name="lockscreen_missing_sim_message" product="tablet" msgid="151659196095791474">"Planšetdatorā nav SIM kartes."</string>
+    <string name="lockscreen_missing_sim_message_short" msgid="5099439277819215399">"Nav SIM kartes"</string>
+    <string name="lockscreen_missing_sim_message" product="tablet" msgid="151659196095791474">"Planšetdatorā nav SIM kartes."</string>
     <string name="lockscreen_missing_sim_message" product="default" msgid="2186920585695169078">"Tālrunī nav SIM kartes."</string>
-    <string name="lockscreen_missing_sim_instructions" msgid="5372787138023272615">"Ievietojiet SIM karti."</string>
-    <string name="lockscreen_missing_sim_instructions_long" msgid="3526573099019319472">"Nav SIM kartes, vai arī to nevar nolasīt. Ievietojiet SIM karti."</string>
+    <string name="lockscreen_missing_sim_instructions" msgid="5372787138023272615">"Ievietojiet SIM karti."</string>
+    <string name="lockscreen_missing_sim_instructions_long" msgid="3526573099019319472">"Nav SIM kartes, vai arī to nevar nolasīt. Ievietojiet SIM karti."</string>
     <string name="lockscreen_permanent_disabled_sim_message_short" msgid="5096149665138916184">"Nelietojama SIM karte."</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions" msgid="910904643433151371">"Jūsu SIM karte ir neatgriezeniski atspējota.\nSazinieties ar savu bezvadu pakalpojumu sniedzēju, lai iegūtu citu SIM karti."</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions" msgid="910904643433151371">"Jūsu SIM karte ir neatgriezeniski atspējota.\nSazinieties ar savu bezvadu pakalpojumu sniedzēju, lai iegūtu citu SIM karti."</string>
     <string name="lockscreen_transport_prev_description" msgid="201594905152746886">"Iepriekšējā ieraksta poga"</string>
     <string name="lockscreen_transport_next_description" msgid="6089297650481292363">"Nākamā ieraksta poga"</string>
     <string name="lockscreen_transport_pause_description" msgid="7659088786780128001">"Pārtraukšanas poga"</string>
@@ -859,16 +860,16 @@
     <string name="lockscreen_sim_puk_locked_instructions" msgid="8127916255245181063">"Skatiet lietotāja rokasgrāmatu vai sazinieties ar klientu apkalpošanas dienestu."</string>
     <string name="lockscreen_sim_locked_message" msgid="8066660129206001039">"SIM karte ir bloķēta."</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message" msgid="595323214052881264">"Notiek SIM kartes atbloķēšana..."</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message" msgid="6481623830344107222">"Atbloķēšanas kombinācija tika nepareizi uzzīmēta <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
-    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" msgid="2725973286239344555">"Jūs esat ievadījis nepareizu paroli <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
-    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" msgid="6216672706545696955">"Jūs esat ievadījis nepareizu PIN <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet" msgid="9191611984625460820">"Atbloķēšanas kombinācija tika nepareizi uzzīmēta <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem planšetdators būs jāatbloķē, izmantojot pierakstīšanos Google kontā.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_2">%d</xliff:g> sekundēm."</string>
-    <string name="lockscreen_failed_attempts_almost_glogin" product="default" msgid="2590227559763762751">"Atbloķēšanas kombinācija tika nepareizi uzzīmēta <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem tālrunis būs jāatbloķē, izmantojot pierakstīšanos Google kontā.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_2">%d</xliff:g> sekundēm."</string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet" msgid="6128106399745755604">"Jūs nepareizi veicāt planšetdatora atbloķēšanu <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīga(-iem) mēģinājuma(-iem) planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi, un lietotāja dati tiks zaudēti."</string>
-    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default" msgid="8603565142156826565">"Jūs nepareizi veicāt tālruņa atbloķēšanu <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīga(-iem) mēģinājuma(-iem) tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi, un lietotāja dati tiks zaudēti."</string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="tablet" msgid="280873516493934365">"Jūs nepareizi veicāt planšetdatora atbloķēšanu <xliff:g id="NUMBER">%d</xliff:g> reizes. Planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi."</string>
-    <string name="lockscreen_failed_attempts_now_wiping" product="default" msgid="3025504721764922246">"Jūs nepareizi veicāt tālruņa atbloķēšanu <xliff:g id="NUMBER">%d</xliff:g> reizes. Tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi."</string>
-    <string name="lockscreen_too_many_failed_attempts_countdown" msgid="6251480343394389665">"Mēģiniet vēlreiz pēc <xliff:g id="NUMBER">%d</xliff:g> sekundes(-ēm)."</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" msgid="6481623830344107222">"Atbloķēšanas kombinācija tika nepareizi uzzīmēta <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message" msgid="2725973286239344555">"Jūs esat ievadījis nepareizu paroli <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" msgid="6216672706545696955">"Jūs esat ievadījis nepareizu PIN <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="tablet" msgid="9191611984625460820">"Atbloķēšanas kombinācija tika nepareizi uzzīmēta <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem planšetdators būs jāatbloķē, izmantojot pierakstīšanos Google kontā.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_2">%d</xliff:g> sekundēm."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" product="default" msgid="2590227559763762751">"Atbloķēšanas kombinācija tika nepareizi uzzīmēta <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem tālrunis būs jāatbloķē, izmantojot pierakstīšanos Google kontā.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_2">%d</xliff:g> sekundēm."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="tablet" msgid="6128106399745755604">"Jūs nepareizi veicāt planšetdatora atbloķēšanu <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīga(-iem) mēģinājuma(-iem) planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi, un lietotāja dati tiks zaudēti."</string>
+    <string name="lockscreen_failed_attempts_almost_at_wipe" product="default" msgid="8603565142156826565">"Jūs nepareizi veicāt tālruņa atbloķēšanu <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīga(-iem) mēģinājuma(-iem) tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi, un lietotāja dati tiks zaudēti."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="tablet" msgid="280873516493934365">"Jūs nepareizi veicāt planšetdatora atbloķēšanu <xliff:g id="NUMBER">%d</xliff:g> reizes. Planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi."</string>
+    <string name="lockscreen_failed_attempts_now_wiping" product="default" msgid="3025504721764922246">"Jūs nepareizi veicāt tālruņa atbloķēšanu <xliff:g id="NUMBER">%d</xliff:g> reizes. Tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi."</string>
+    <string name="lockscreen_too_many_failed_attempts_countdown" msgid="6251480343394389665">"Mēģiniet vēlreiz pēc <xliff:g id="NUMBER">%d</xliff:g> sekundes(-ēm)."</string>
     <string name="lockscreen_forgot_pattern_button_text" msgid="2626999449610695930">"Vai aizmirsāt kombināciju?"</string>
     <string name="lockscreen_glogin_forgot_pattern" msgid="2588521501166032747">"Konta atbloķēšana"</string>
     <string name="lockscreen_glogin_too_many_attempts" msgid="2751368605287288808">"Veikts pārāk daudz kombinācijas mēģinājumu!"</string>
@@ -886,7 +887,7 @@
     <string name="lockscreen_access_pattern_cleared" msgid="5583479721001639579">"Kombinācija notīrīta"</string>
     <string name="lockscreen_access_pattern_cell_added" msgid="6756031208359292487">"Šūna pievienota"</string>
     <string name="lockscreen_access_pattern_detected" msgid="4988730895554057058">"Kombinācija pabeigta"</string>
-    <string name="keyguard_accessibility_widget_changed" msgid="5678624624681400191">"%1$s. %2$d. logrīks no %3$d."</string>
+    <string name="keyguard_accessibility_widget_changed" msgid="5678624624681400191">"%1$s. %2$d. logrīks no %3$d."</string>
     <string name="keyguard_accessibility_add_widget" msgid="8273277058724924654">"Pievienot logrīku."</string>
     <string name="keyguard_accessibility_widget_empty_slot" msgid="1281505703307930757">"Tukšs"</string>
     <string name="keyguard_accessibility_unlock_area_expanded" msgid="2278106022311170299">"Atbloķēšanas apgabals ir izvērsts."</string>
@@ -903,7 +904,7 @@
     <string name="keyguard_accessibility_slide_unlock" msgid="2959928478764697254">"Autorizācija, velkot ar pirkstu."</string>
     <string name="keyguard_accessibility_pattern_unlock" msgid="1490840706075246612">"Autorizācija ar kombināciju."</string>
     <string name="keyguard_accessibility_face_unlock" msgid="4817282543351718535">"Autorizācija pēc sejas."</string>
-    <string name="keyguard_accessibility_pin_unlock" msgid="2469687111784035046">"Autorizācija ar PIN kodu."</string>
+    <string name="keyguard_accessibility_pin_unlock" msgid="2469687111784035046">"Autorizācija ar PIN kodu."</string>
     <string name="keyguard_accessibility_password_unlock" msgid="7675777623912155089">"Autorizācija ar paroli."</string>
     <string name="keyguard_accessibility_pattern_area" msgid="7679891324509597904">"Kombinācijas ievades apgabals."</string>
     <string name="keyguard_accessibility_slide_area" msgid="6736064494019979544">"Apgabals, kur vilkt ar pirkstu."</string>
@@ -914,8 +915,8 @@
     <string name="granularity_label_word" msgid="7075570328374918660">"vārds"</string>
     <string name="granularity_label_link" msgid="5815508880782488267">"saite"</string>
     <string name="granularity_label_line" msgid="5764267235026120888">"rindiņa"</string>
-    <string name="hour_ampm" msgid="4584338083529355982">"<xliff:g id="HOUR">%-l</xliff:g> (<xliff:g id="AMPM">%P</xliff:g>)"</string>
-    <string name="hour_cap_ampm" msgid="2083465992940444366">"<xliff:g id="HOUR">%-l</xliff:g> (<xliff:g id="AMPM">%p</xliff:g>)"</string>
+    <string name="hour_ampm" msgid="4584338083529355982">"<xliff:g id="HOUR">%-l</xliff:g> (<xliff:g id="AMPM">%P</xliff:g>)"</string>
+    <string name="hour_cap_ampm" msgid="2083465992940444366">"<xliff:g id="HOUR">%-l</xliff:g> (<xliff:g id="AMPM">%p</xliff:g>)"</string>
     <string name="factorytest_failed" msgid="5410270329114212041">"Rūpnīcas pārbaude neizdevās"</string>
     <string name="factorytest_not_system" msgid="4435201656767276723">"Darbība FACTORY_TEST tiek atbalstīta tikai pakotnēm, kas ir instalētas šeit: /system/app."</string>
     <string name="factorytest_no_action" msgid="872991874799998561">"Netika atrasts neviena pakotne, kas nodrošina darbību FACTORY_TEST."</string>
@@ -962,7 +963,7 @@
     <string name="permlab_bindPackageVerifier" msgid="4187786793360326654">"saistīšana ar pakotnes verificētāju"</string>
     <string name="permdesc_bindPackageVerifier" msgid="3180741773233862126">"Ļauj īpašniekam sūtīt pakotņu verificētāju pieprasījumus. Parastajām lietotnēm tas nekad nav nepieciešams."</string>
     <string name="permlab_serialPort" msgid="546083327654631076">"piekļuve seriālajiem portiem"</string>
-    <string name="permdesc_serialPort" msgid="2991639985224598193">"Ļauj īpašniekam piekļūt seriālajiem portiem, izmantojot SerialManager API."</string>
+    <string name="permdesc_serialPort" msgid="2991639985224598193">"Ļauj īpašniekam piekļūt seriālajiem portiem, izmantojot SerialManager API."</string>
     <string name="permlab_accessContentProvidersExternally" msgid="5077774297943409285">"ārēji piekļūt satura nodrošinātājiem"</string>
     <string name="permdesc_accessContentProvidersExternally" msgid="4544346486697853685">"Ļauj īpašniekam no čaulas piekļūt satura nodrošinātājiem. Nekad nav nepieciešama parastām lietotnēm."</string>
     <string name="permlab_updateLock" msgid="3527558366616680889">"neatļaut automāt. ierīces atjauninājumus"</string>
@@ -987,76 +988,76 @@
     <string name="enable_explore_by_touch_warning_title" msgid="7460694070309730149">"Vai iesp. “Pārlūkot pieskaroties”?"</string>
     <string name="enable_explore_by_touch_warning_message" product="tablet" msgid="8655887539089910577">"<xliff:g id="ACCESSIBILITY_SERVICE_NAME">%1$s</xliff:g> vēlas iespējot funkciju “Atklāt pieskaroties”. Kad ir ieslēgta funkcija “Atklāt pieskaroties”, var dzirdēt vai redzēt tā vienuma aprakstu, virs kura atrodas pirksts, vai veikt žestus, lai mijiedarbotos ar planšetdatoru."</string>
     <string name="enable_explore_by_touch_warning_message" product="default" msgid="2708199672852373195">"<xliff:g id="ACCESSIBILITY_SERVICE_NAME">%1$s</xliff:g> vēlas iespējot funkciju “Atklāt pieskaroties”. Kad ir ieslēgta funkcija “Atklāt pieskaroties”, var dzirdēt vai redzēt tā vienuma aprakstu, virs kura atrodas pirksts, vai veikt žestus, lai mijiedarbotos ar tālruni."</string>
-    <string name="oneMonthDurationPast" msgid="7396384508953779925">"Pirms 1 mēneša"</string>
-    <string name="beforeOneMonthDurationPast" msgid="909134546836499826">"Vairāk nekā pirms 1 mēneša"</string>
+    <string name="oneMonthDurationPast" msgid="7396384508953779925">"Pirms 1 mēneša"</string>
+    <string name="beforeOneMonthDurationPast" msgid="909134546836499826">"Vairāk nekā pirms 1 mēneša"</string>
   <plurals name="num_seconds_ago">
-    <item quantity="one" msgid="4869870056547896011">"Pirms 1 sekundes"</item>
-    <item quantity="other" msgid="3903706804349556379">"Pirms <xliff:g id="COUNT">%d</xliff:g> sekundes(-ēm)"</item>
+    <item quantity="one" msgid="4869870056547896011">"Pirms 1 sekundes"</item>
+    <item quantity="other" msgid="3903706804349556379">"Pirms <xliff:g id="COUNT">%d</xliff:g> sekundes(-ēm)"</item>
   </plurals>
   <plurals name="num_minutes_ago">
-    <item quantity="one" msgid="3306787433088810191">"Pirms 1 minūtes"</item>
-    <item quantity="other" msgid="2176942008915455116">"Pirms <xliff:g id="COUNT">%d</xliff:g> minūtes(-ēm)"</item>
+    <item quantity="one" msgid="3306787433088810191">"Pirms 1 minūtes"</item>
+    <item quantity="other" msgid="2176942008915455116">"Pirms <xliff:g id="COUNT">%d</xliff:g> minūtes(-ēm)"</item>
   </plurals>
   <plurals name="num_hours_ago">
-    <item quantity="one" msgid="9150797944610821849">"Pirms 1 stundas"</item>
-    <item quantity="other" msgid="2467273239587587569">"Pirms <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
+    <item quantity="one" msgid="9150797944610821849">"Pirms 1 stundas"</item>
+    <item quantity="other" msgid="2467273239587587569">"Pirms <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
   </plurals>
   <plurals name="last_num_days">
-    <item quantity="other" msgid="3069992808164318268">"Pēdējās <xliff:g id="COUNT">%d</xliff:g> dienās"</item>
+    <item quantity="other" msgid="3069992808164318268">"Pēdējās <xliff:g id="COUNT">%d</xliff:g> dienās"</item>
   </plurals>
     <string name="last_month" msgid="3959346739979055432">"Iepriekšējā mēnesī"</string>
     <string name="older" msgid="5211975022815554840">"Vecāks"</string>
   <plurals name="num_days_ago">
     <item quantity="one" msgid="861358534398115820">"vakar"</item>
-    <item quantity="other" msgid="2479586466153314633">"Pirms <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
+    <item quantity="other" msgid="2479586466153314633">"Pirms <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
   </plurals>
   <plurals name="in_num_seconds">
-    <item quantity="one" msgid="2729745560954905102">"pēc 1 sekundes"</item>
-    <item quantity="other" msgid="1241926116443974687">"pēc <xliff:g id="COUNT">%d</xliff:g> sekundes(-ēm)"</item>
+    <item quantity="one" msgid="2729745560954905102">"pēc 1 sekundes"</item>
+    <item quantity="other" msgid="1241926116443974687">"pēc <xliff:g id="COUNT">%d</xliff:g> sekundes(-ēm)"</item>
   </plurals>
   <plurals name="in_num_minutes">
-    <item quantity="one" msgid="8793095251325200395">"pēc 1 minūtes"</item>
-    <item quantity="other" msgid="3330713936399448749">"pēc <xliff:g id="COUNT">%d</xliff:g> minūtes(-ēm)"</item>
+    <item quantity="one" msgid="8793095251325200395">"pēc 1 minūtes"</item>
+    <item quantity="other" msgid="3330713936399448749">"pēc <xliff:g id="COUNT">%d</xliff:g> minūtes(-ēm)"</item>
   </plurals>
   <plurals name="in_num_hours">
-    <item quantity="one" msgid="7164353342477769999">"pēc 1 stundas"</item>
-    <item quantity="other" msgid="547290677353727389">"pēc <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
+    <item quantity="one" msgid="7164353342477769999">"pēc 1 stundas"</item>
+    <item quantity="other" msgid="547290677353727389">"pēc <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
   </plurals>
   <plurals name="in_num_days">
     <item quantity="one" msgid="5413088743009839518">"rītdien"</item>
-    <item quantity="other" msgid="5109449375100953247">"pēc <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
+    <item quantity="other" msgid="5109449375100953247">"pēc <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
   </plurals>
   <plurals name="abbrev_num_seconds_ago">
-    <item quantity="one" msgid="1849036840200069118">"Pirms 1 sekundes"</item>
-    <item quantity="other" msgid="3699169366650930415">"Pirms <xliff:g id="COUNT">%d</xliff:g> s"</item>
+    <item quantity="one" msgid="1849036840200069118">"Pirms 1 sekundes"</item>
+    <item quantity="other" msgid="3699169366650930415">"Pirms <xliff:g id="COUNT">%d</xliff:g> s"</item>
   </plurals>
   <plurals name="abbrev_num_minutes_ago">
-    <item quantity="one" msgid="6361490147113871545">"Pirms 1 min"</item>
-    <item quantity="other" msgid="851164968597150710">"Pirms <xliff:g id="COUNT">%d</xliff:g> min"</item>
+    <item quantity="one" msgid="6361490147113871545">"Pirms 1 min"</item>
+    <item quantity="other" msgid="851164968597150710">"Pirms <xliff:g id="COUNT">%d</xliff:g> min"</item>
   </plurals>
   <plurals name="abbrev_num_hours_ago">
-    <item quantity="one" msgid="4796212039724722116">"Pirms 1 stundas"</item>
-    <item quantity="other" msgid="6889970745748538901">"Pirms <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
+    <item quantity="one" msgid="4796212039724722116">"Pirms 1 stundas"</item>
+    <item quantity="other" msgid="6889970745748538901">"Pirms <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
   </plurals>
   <plurals name="abbrev_num_days_ago">
     <item quantity="one" msgid="8463161711492680309">"vakar"</item>
-    <item quantity="other" msgid="3453342639616481191">"Pirms <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
+    <item quantity="other" msgid="3453342639616481191">"Pirms <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
   </plurals>
   <plurals name="abbrev_in_num_seconds">
-    <item quantity="one" msgid="5842225370795066299">"pēc 1 s"</item>
-    <item quantity="other" msgid="5495880108825805108">"pēc <xliff:g id="COUNT">%d</xliff:g> s"</item>
+    <item quantity="one" msgid="5842225370795066299">"pēc 1 s"</item>
+    <item quantity="other" msgid="5495880108825805108">"pēc <xliff:g id="COUNT">%d</xliff:g> s"</item>
   </plurals>
   <plurals name="abbrev_in_num_minutes">
-    <item quantity="one" msgid="562786149928284878">"pēc 1 min"</item>
-    <item quantity="other" msgid="4216113292706568726">"pēc <xliff:g id="COUNT">%d</xliff:g> minūtes(-ēm)"</item>
+    <item quantity="one" msgid="562786149928284878">"pēc 1 min"</item>
+    <item quantity="other" msgid="4216113292706568726">"pēc <xliff:g id="COUNT">%d</xliff:g> minūtes(-ēm)"</item>
   </plurals>
   <plurals name="abbrev_in_num_hours">
-    <item quantity="one" msgid="3274708118124045246">"pēc 1 stundas"</item>
-    <item quantity="other" msgid="3705373766798013406">"pēc <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
+    <item quantity="one" msgid="3274708118124045246">"pēc 1 stundas"</item>
+    <item quantity="other" msgid="3705373766798013406">"pēc <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
   </plurals>
   <plurals name="abbrev_in_num_days">
     <item quantity="one" msgid="2178576254385739855">"rītdien"</item>
-    <item quantity="other" msgid="2973062968038355991">"pēc <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
+    <item quantity="other" msgid="2973062968038355991">"pēc <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
   </plurals>
     <string name="preposition_for_date" msgid="9093949757757445117">"šādā datumā: <xliff:g id="DATE">%s</xliff:g>"</string>
     <string name="preposition_for_time" msgid="5506831244263083793">"plkst. <xliff:g id="TIME">%s</xliff:g>"</string>
@@ -1074,16 +1075,16 @@
     <string name="year" msgid="4001118221013892076">"gads"</string>
     <string name="years" msgid="6881577717993213522">"gadi"</string>
   <plurals name="duration_seconds">
-    <item quantity="one" msgid="6962015528372969481">"1 s"</item>
-    <item quantity="other" msgid="1886107766577166786">"<xliff:g id="COUNT">%d</xliff:g> s"</item>
+    <item quantity="one" msgid="6962015528372969481">"1 s"</item>
+    <item quantity="other" msgid="1886107766577166786">"<xliff:g id="COUNT">%d</xliff:g> s"</item>
   </plurals>
   <plurals name="duration_minutes">
-    <item quantity="one" msgid="4915414002546085617">"1 min"</item>
-    <item quantity="other" msgid="3165187169224908775">"<xliff:g id="COUNT">%d</xliff:g> min"</item>
+    <item quantity="one" msgid="4915414002546085617">"1 min"</item>
+    <item quantity="other" msgid="3165187169224908775">"<xliff:g id="COUNT">%d</xliff:g> min"</item>
   </plurals>
   <plurals name="duration_hours">
-    <item quantity="one" msgid="8917467491248809972">"1 stunda"</item>
-    <item quantity="other" msgid="3863962854246773930">"<xliff:g id="COUNT">%d</xliff:g> h"</item>
+    <item quantity="one" msgid="8917467491248809972">"1 stunda"</item>
+    <item quantity="other" msgid="3863962854246773930">"<xliff:g id="COUNT">%d</xliff:g> h"</item>
   </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"Video problēma"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"Šis video nav derīgs straumēšanai uz šo ierīci."</string>
@@ -1124,13 +1125,13 @@
     <string name="whichApplication" msgid="4533185947064773386">"Pabeigt darbību, izmantojot"</string>
     <string name="whichHomeApplication" msgid="4616420172727326782">"Sākuma ekrāna lietotnes atlase"</string>
     <string name="alwaysUse" msgid="4583018368000610438">"Pēc noklusējuma izmantot šai darbībai."</string>
-    <string name="clearDefaultHintMsg" msgid="3252584689512077257">"Notīriet noklusējuma iestatījumus šeit: Sistēmas iestatījumi &gt; Lietotnes &gt; Lejupielādētās."</string>
+    <string name="clearDefaultHintMsg" msgid="3252584689512077257">"Notīriet noklusējuma iestatījumus šeit: Sistēmas iestatījumi &gt; Lietotnes &gt; Lejupielādētās."</string>
     <string name="chooseActivity" msgid="7486876147751803333">"Darbības izvēle"</string>
-    <string name="chooseUsbActivity" msgid="6894748416073583509">"Lietotnes izvēlēšanās USB ierīcei"</string>
+    <string name="chooseUsbActivity" msgid="6894748416073583509">"Lietotnes izvēlēšanās USB ierīcei"</string>
     <string name="noApplications" msgid="2991814273936504689">"Šo darbību nevar veikt neviena lietotne."</string>
     <string name="aerr_title" msgid="1905800560317137752"></string>
     <string name="aerr_application" msgid="932628488013092776">"Diemžēl lietojumprogrammas <xliff:g id="APPLICATION">%1$s</xliff:g> darbība ir apturēta."</string>
-    <string name="aerr_process" msgid="4507058997035697579">"Diemžēl process <xliff:g id="PROCESS">%1$s</xliff:g> ir apturēts."</string>
+    <string name="aerr_process" msgid="4507058997035697579">"Diemžēl process <xliff:g id="PROCESS">%1$s</xliff:g> ir apturēts."</string>
     <string name="anr_title" msgid="4351948481459135709"></string>
     <string name="anr_activity_application" msgid="1904477189057199066">"Lietojumprogramma <xliff:g id="APPLICATION">%2$s</xliff:g> nereaģē.\n\nVai vēlaties to aizvērt?"</string>
     <string name="anr_activity_process" msgid="5776209883299089767">"Darbība <xliff:g id="ACTIVITY">%1$s</xliff:g> nereaģē.\n\nVai vēlaties to aizvērt?"</string>
@@ -1145,11 +1146,11 @@
     <string name="launch_warning_original" msgid="188102023021668683">"Sākotnēji tika palaista lietojumprogramma <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Mērogs"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Rādīt vienmēr"</string>
-    <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Atkārtoti iespējojiet šeit: Sistēmas iestatījumi &gt; Lietotnes &gt; Lejupielādētās."</string>
+    <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Atkārtoti iespējojiet šeit: Sistēmas iestatījumi &gt; Lietotnes &gt; Lejupielādētās."</string>
     <string name="smv_application" msgid="3307209192155442829">"Lietotne <xliff:g id="APPLICATION">%1$s</xliff:g> (process <xliff:g id="PROCESS">%2$s</xliff:g>) ir pārkāpusi savu pašieviesto StrictMode politiku."</string>
     <string name="smv_process" msgid="5120397012047462446">"Process <xliff:g id="PROCESS">%1$s</xliff:g> ir pārkāpis savu pašieviesto StrictMode politiku."</string>
     <string name="android_upgrading_title" msgid="1584192285441405746">"Notiek Android jaunināšana..."</string>
-    <string name="android_upgrading_apk" msgid="7904042682111526169">"Tiek optimizēta <xliff:g id="NUMBER_0">%1$d</xliff:g>. lietotne no <xliff:g id="NUMBER_1">%2$d</xliff:g>."</string>
+    <string name="android_upgrading_apk" msgid="7904042682111526169">"Tiek optimizēta <xliff:g id="NUMBER_0">%1$d</xliff:g>. lietotne no <xliff:g id="NUMBER_1">%2$d</xliff:g>."</string>
     <string name="android_upgrading_starting_apps" msgid="451464516346926713">"Notiek lietotņu palaišana."</string>
     <string name="android_upgrading_complete" msgid="1405954754112999229">"Tiek pabeigta sāknēšana."</string>
     <string name="heavy_weight_notification" msgid="9087063985776626166">"<xliff:g id="APP">%1$s</xliff:g> darbojas"</string>
@@ -1188,14 +1189,14 @@
     <item quantity="one" msgid="1634101450343277345">"Ir pieejams atvērts Wi-Fi tīkls"</item>
     <item quantity="other" msgid="7915895323644292768">"Ir pieejami atvērti Wi-Fi tīkli."</item>
   </plurals>
-    <string name="wifi_available_sign_in" msgid="4029489716605255386">"Pierakstieties Wi-Fi tīklā."</string>
+    <string name="wifi_available_sign_in" msgid="4029489716605255386">"Pierakstieties Wi-Fi tīklā."</string>
     <string name="network_available_sign_in" msgid="8495155593358054676">"Pierakstīšanās tīklā"</string>
     <!-- no translation found for network_available_sign_in_detailed (8000081941447976118) -->
     <skip />
     <string name="wifi_watchdog_network_disabled" msgid="7904214231651546347">"Nevarēja izveidot savienojumu ar Wi-Fi."</string>
     <string name="wifi_watchdog_network_disabled_detailed" msgid="5548780776418332675">" ir slikts interneta savienojums."</string>
     <string name="wifi_p2p_dialog_title" msgid="97611782659324517">"Wi-Fi Direct"</string>
-    <string name="wifi_p2p_turnon_message" msgid="2909250942299627244">"Palaist programmu Wi-Fi Direct. Tādējādi tiks izslēgta Wi-Fi klienta/tīklāja darbība."</string>
+    <string name="wifi_p2p_turnon_message" msgid="2909250942299627244">"Palaist programmu Wi-Fi Direct. Tādējādi tiks izslēgta Wi-Fi klienta/tīklāja darbība."</string>
     <string name="wifi_p2p_failed_message" msgid="3763669677935623084">"Nevarēja palaist programmu Wi-Fi Direct."</string>
     <string name="wifi_p2p_enabled_notification_title" msgid="2068321881673734886">"Wi-Fi Direct ir ieslēgts"</string>
     <string name="wifi_p2p_enabled_notification_message" msgid="1638949953993894335">"Pieskarieties, lai piekļūtu iestatījumiem."</string>
@@ -1207,7 +1208,7 @@
     <string name="wifi_p2p_to_message" msgid="248968974522044099">"Kam:"</string>
     <string name="wifi_p2p_enter_pin_message" msgid="5920929550367828970">"Ierakstiet pieprasīto PIN:"</string>
     <string name="wifi_p2p_show_pin_message" msgid="8530563323880921094">"PIN:"</string>
-    <string name="wifi_p2p_frequency_conflict_message" product="tablet" msgid="8012981257742232475">"Planšetdators tiks īslaicīgi atvienots no Wi-Fi tīkla, kamēr būs izveidots savienojums ar ierīci <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
+    <string name="wifi_p2p_frequency_conflict_message" product="tablet" msgid="8012981257742232475">"Planšetdators tiks īslaicīgi atvienots no Wi-Fi tīkla, kamēr būs izveidots savienojums ar ierīci <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="wifi_p2p_frequency_conflict_message" product="default" msgid="7363907213787469151">"Tālrunis tiks īslaicīgi atvienots no Wi-Fi tīkla, kamēr būs izveidots savienojums ar ierīci <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
     <string name="select_character" msgid="3365550120617701745">"Ievietojiet rakstzīmi"</string>
     <string name="sms_control_title" msgid="7296612781128917719">"Īsziņu sūtīšana"</string>
@@ -1220,7 +1221,7 @@
     <string name="sms_short_code_confirm_allow" msgid="4458878637111023413">"Sūtīt"</string>
     <string name="sms_short_code_confirm_deny" msgid="2927389840209170706">"Atcelt"</string>
     <string name="sms_short_code_remember_choice" msgid="5289538592272218136">"Atcerēties manu izvēli"</string>
-    <string name="sms_short_code_remember_undo_instruction" msgid="4960944133052287484">"Lai mainītu: Iestatījumi &gt; Lietotnes"</string>
+    <string name="sms_short_code_remember_undo_instruction" msgid="4960944133052287484">"Lai mainītu: Iestatījumi &gt; Lietotnes"</string>
     <string name="sms_short_code_confirm_always_allow" msgid="3241181154869493368">"Vienmēr atļaut"</string>
     <string name="sms_short_code_confirm_never_allow" msgid="446992765774269673">"Neatļaut nekad"</string>
     <string name="sim_removed_title" msgid="6227712319223226185">"SIM karte ir izņemta."</string>
@@ -1237,38 +1238,38 @@
     <string name="perms_description_app" msgid="5139836143293299417">"Nodrošina <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
     <string name="no_permissions" msgid="7283357728219338112">"Atļaujas nav nepieciešamas."</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"par to no jums var tikt iekasēta maksa"</string>
-    <string name="usb_storage_activity_title" msgid="4465055157209648641">"USB lielapjoma atmiņa"</string>
+    <string name="usb_storage_activity_title" msgid="4465055157209648641">"USB lielapjoma atmiņa"</string>
     <string name="usb_storage_title" msgid="5901459041398751495">"USB ir pievienots."</string>
-    <string name="usb_storage_message" product="nosdcard" msgid="3308538094316477839">"Ir izveidots savienojums ar datoru, izmantojot USB. Pieskarieties tālāk esošajai pogai, ja vēlaties kopēt failus no datora Android USB atmiņā vai otrādi."</string>
-    <string name="usb_storage_message" product="default" msgid="805351000446037811">"Ir izveidots savienojums ar datoru, izmantojot USB. Pieskarieties tālāk esošajai pogai, ja vēlaties kopēt failus no datora Android SD kartē vai otrādi."</string>
+    <string name="usb_storage_message" product="nosdcard" msgid="3308538094316477839">"Ir izveidots savienojums ar datoru, izmantojot USB. Pieskarieties tālāk esošajai pogai, ja vēlaties kopēt failus no datora Android USB atmiņā vai otrādi."</string>
+    <string name="usb_storage_message" product="default" msgid="805351000446037811">"Ir izveidots savienojums ar datoru, izmantojot USB. Pieskarieties tālāk esošajai pogai, ja vēlaties kopēt failus no datora Android SD kartē vai otrādi."</string>
     <string name="usb_storage_button_mount" msgid="1052259930369508235">"Ieslēgt USB krātuvi"</string>
-    <string name="usb_storage_error_message" product="nosdcard" msgid="3017045217365540658">"Izmantojot USB atmiņu lielapjoma uzglabāšanai USB atmiņā, radās problēma."</string>
-    <string name="usb_storage_error_message" product="default" msgid="2876018512716970313">"Izmantojot SD karti lielapjoma uzglabāšanai USB atmiņā, radās problēma."</string>
+    <string name="usb_storage_error_message" product="nosdcard" msgid="3017045217365540658">"Izmantojot USB atmiņu lielapjoma uzglabāšanai USB atmiņā, radās problēma."</string>
+    <string name="usb_storage_error_message" product="default" msgid="2876018512716970313">"Izmantojot SD karti lielapjoma uzglabāšanai USB atmiņā, radās problēma."</string>
     <string name="usb_storage_notification_title" msgid="8175892554757216525">"USB ir pievienots."</string>
     <string name="usb_storage_notification_message" msgid="939822783828183763">"Pieskarieties, lai kopētu failus datorā/no datora."</string>
     <string name="usb_storage_stop_notification_title" msgid="2336058396663516017">"USB krātuves izslēgšana"</string>
-    <string name="usb_storage_stop_notification_message" msgid="1656852098555623822">"Pieskarieties, lai izslēgtu USB atmiņu."</string>
+    <string name="usb_storage_stop_notification_message" msgid="1656852098555623822">"Pieskarieties, lai izslēgtu USB atmiņu."</string>
     <string name="usb_storage_stop_title" msgid="660129851708775853">"USB krātuve tiek izmantota"</string>
-    <string name="usb_storage_stop_message" product="nosdcard" msgid="4264025280777219521">"Pirms USB atmiņas izslēgšanas atvienojiet Android USB atmiņu no datora (tai jābūt “izstumtai”)."</string>
-    <string name="usb_storage_stop_message" product="default" msgid="8043969782460613114">"Pirms USB atmiņas izslēgšanas atvienojiet Android SD karti no datora (tai jābūt “izstumtai”)."</string>
+    <string name="usb_storage_stop_message" product="nosdcard" msgid="4264025280777219521">"Pirms USB atmiņas izslēgšanas atvienojiet Android USB atmiņu no datora (tai jābūt “izstumtai”)."</string>
+    <string name="usb_storage_stop_message" product="default" msgid="8043969782460613114">"Pirms USB atmiņas izslēgšanas atvienojiet Android SD karti no datora (tai jābūt “izstumtai”)."</string>
     <string name="usb_storage_stop_button_mount" msgid="7060218034900696029">"Izslēgt USB krātuvi"</string>
-    <string name="usb_storage_stop_error_message" msgid="1970374898263063836">"Izslēdzot USB atmiņu, radās problēma. Pārliecinieties, ka USB saimniekdators ir noņemts, un pēc tam mēģiniet vēlreiz."</string>
+    <string name="usb_storage_stop_error_message" msgid="1970374898263063836">"Izslēdzot USB atmiņu, radās problēma. Pārliecinieties, ka USB saimniekdators ir noņemts, un pēc tam mēģiniet vēlreiz."</string>
     <string name="dlg_confirm_kill_storage_users_title" msgid="963039033470478697">"Ieslēgt USB krātuvi"</string>
-    <string name="dlg_confirm_kill_storage_users_text" msgid="5100428757107469454">"Ja ieslēgsiet USB atmiņu, dažu izmantoto lietotņu darbība tiks apturēta un tās var nebūt pieejamas līdz brīdim, kad USB atmiņa tiks izslēgta."</string>
-    <string name="dlg_error_title" msgid="7323658469626514207">"USB atmiņas darbība neizdevās."</string>
+    <string name="dlg_confirm_kill_storage_users_text" msgid="5100428757107469454">"Ja ieslēgsiet USB atmiņu, dažu izmantoto lietotņu darbība tiks apturēta un tās var nebūt pieejamas līdz brīdim, kad USB atmiņa tiks izslēgta."</string>
+    <string name="dlg_error_title" msgid="7323658469626514207">"USB atmiņas darbība neizdevās."</string>
     <string name="dlg_ok" msgid="7376953167039865701">"Labi"</string>
     <string name="usb_mtp_notification_title" msgid="3699913097391550394">"Pievienots kā multivides ierīce"</string>
     <string name="usb_ptp_notification_title" msgid="1960817192216064833">"Pievienots kā kamera"</string>
     <string name="usb_cd_installer_notification_title" msgid="6774712827892090754">"Pievienots kā instalēšanas programma"</string>
-    <string name="usb_accessory_notification_title" msgid="7848236974087653666">"Ir izveidots savienojums ar USB piederumu."</string>
-    <string name="usb_notification_message" msgid="2290859399983720271">"Pieskarieties, lai skatītu citas USB opcijas."</string>
-    <string name="extmedia_format_title" product="nosdcard" msgid="9020092196061007262">"Vai formatēt USB atmiņu?"</string>
-    <string name="extmedia_format_title" product="default" msgid="3648415921526526069">"Vai formatēt SD karti?"</string>
-    <string name="extmedia_format_message" product="nosdcard" msgid="3934016853425761078">"Visi USB atmiņā saglabātie faili tiks dzēsti. Šo darbību nevar atsaukt."</string>
+    <string name="usb_accessory_notification_title" msgid="7848236974087653666">"Ir izveidots savienojums ar USB piederumu."</string>
+    <string name="usb_notification_message" msgid="2290859399983720271">"Pieskarieties, lai skatītu citas USB opcijas."</string>
+    <string name="extmedia_format_title" product="nosdcard" msgid="9020092196061007262">"Vai formatēt USB atmiņu?"</string>
+    <string name="extmedia_format_title" product="default" msgid="3648415921526526069">"Vai formatēt SD karti?"</string>
+    <string name="extmedia_format_message" product="nosdcard" msgid="3934016853425761078">"Visi USB atmiņā saglabātie faili tiks dzēsti. Šo darbību nevar atsaukt."</string>
     <string name="extmedia_format_message" product="default" msgid="14131895027543830">"Visi jūsu kartes dati tiks zaudēti."</string>
     <string name="extmedia_format_button_format" msgid="4131064560127478695">"Formatēt"</string>
     <string name="adb_active_notification_title" msgid="6729044778949189918">"USB atkļūdošana ir pievienota."</string>
-    <string name="adb_active_notification_message" msgid="1016654627626476142">"Pieskarieties, lai atspējotu USB atkļūdošanu."</string>
+    <string name="adb_active_notification_message" msgid="1016654627626476142">"Pieskarieties, lai atspējotu USB atkļūdošanu."</string>
     <string name="select_input_method" msgid="4653387336791222978">"Ievades metodes izvēle"</string>
     <string name="configure_input_methods" msgid="9091652157722495116">"Iestatīt ievades metodes"</string>
     <string name="use_physical_keyboard" msgid="6203112478095117625">"Fiziskā tastatūra"</string>
@@ -1278,29 +1279,29 @@
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"kandidāti"</u></string>
-    <string name="ext_media_checking_notification_title" product="nosdcard" msgid="3449816005351468560">"Notiek USB kr. sagatavošana"</string>
-    <string name="ext_media_checking_notification_title" product="default" msgid="5457603418970994050">"SD kartes sagatavošana"</string>
+    <string name="ext_media_checking_notification_title" product="nosdcard" msgid="3449816005351468560">"Notiek USB kr. sagatavošana"</string>
+    <string name="ext_media_checking_notification_title" product="default" msgid="5457603418970994050">"SD kartes sagatavošana"</string>
     <string name="ext_media_checking_notification_message" msgid="8287319882926737053">"Notiek kļūdu meklēšana."</string>
-    <string name="ext_media_nofs_notification_title" product="nosdcard" msgid="7788040745686229307">"Tukša USB krātuve"</string>
-    <string name="ext_media_nofs_notification_title" product="default" msgid="780477838241212997">"Tukša SD karte"</string>
-    <string name="ext_media_nofs_notification_message" product="nosdcard" msgid="7840121067427269500">"USB atmiņa ir tukša, vai arī tajā ir neatbalstīta failu sistēma."</string>
-    <string name="ext_media_nofs_notification_message" product="default" msgid="8641065641786923604">"SD karte ir tukša, vai arī tajā ir neatbalstīta failu sistēma."</string>
-    <string name="ext_media_unmountable_notification_title" product="nosdcard" msgid="2090046769532713563">"Bojāta USB krātuve"</string>
-    <string name="ext_media_unmountable_notification_title" product="default" msgid="6410723906019100189">"Bojāta SD karte"</string>
-    <string name="ext_media_unmountable_notification_message" product="nosdcard" msgid="1795917578395333280">"USB atmiņa ir bojāta. Mēģiniet to atkārtoti formatēt."</string>
+    <string name="ext_media_nofs_notification_title" product="nosdcard" msgid="7788040745686229307">"Tukša USB krātuve"</string>
+    <string name="ext_media_nofs_notification_title" product="default" msgid="780477838241212997">"Tukša SD karte"</string>
+    <string name="ext_media_nofs_notification_message" product="nosdcard" msgid="7840121067427269500">"USB atmiņa ir tukša, vai arī tajā ir neatbalstīta failu sistēma."</string>
+    <string name="ext_media_nofs_notification_message" product="default" msgid="8641065641786923604">"SD karte ir tukša, vai arī tajā ir neatbalstīta failu sistēma."</string>
+    <string name="ext_media_unmountable_notification_title" product="nosdcard" msgid="2090046769532713563">"Bojāta USB krātuve"</string>
+    <string name="ext_media_unmountable_notification_title" product="default" msgid="6410723906019100189">"Bojāta SD karte"</string>
+    <string name="ext_media_unmountable_notification_message" product="nosdcard" msgid="1795917578395333280">"USB atmiņa ir bojāta. Mēģiniet to atkārtoti formatēt."</string>
     <string name="ext_media_unmountable_notification_message" product="default" msgid="1753898567525568253">"SD karte ir bojāta. Mēģiniet to atkārtoti formatēt."</string>
-    <string name="ext_media_badremoval_notification_title" product="nosdcard" msgid="1661683031330951073">"USB kr. tika negaidīti noņemta"</string>
-    <string name="ext_media_badremoval_notification_title" product="default" msgid="6872152882604407837">"SD karte tika negaidīti izņemta."</string>
-    <string name="ext_media_badremoval_notification_message" product="nosdcard" msgid="4329848819865594241">"Pirms noņemšanas atvienojiet USB krātuvi, lai nezaudētu datus."</string>
-    <string name="ext_media_badremoval_notification_message" product="default" msgid="7260183293747448241">"Demontēt SD karti pirms tās izņemšanas, lai netiktu zaudēti dati."</string>
-    <string name="ext_media_safe_unmount_notification_title" product="nosdcard" msgid="3967973893270360230">"USB krātuvi var droši noņemt"</string>
-    <string name="ext_media_safe_unmount_notification_title" product="default" msgid="6729801130790616200">"SD karti var droši noņemt."</string>
-    <string name="ext_media_safe_unmount_notification_message" product="nosdcard" msgid="6142195361606493530">"Varat droši noņemt USB krātuvi."</string>
-    <string name="ext_media_safe_unmount_notification_message" product="default" msgid="568841278138377604">"Varat droši noņemt SD karti."</string>
-    <string name="ext_media_nomedia_notification_title" product="nosdcard" msgid="4486377230140227651">"Noņemta USB krātuve"</string>
-    <string name="ext_media_nomedia_notification_title" product="default" msgid="8902518030404381318">"Izņemta SD karte"</string>
-    <string name="ext_media_nomedia_notification_message" product="nosdcard" msgid="6921126162580574143">"USB krātuve ir noņemta. Ievietojiet jaunu datu nesēju."</string>
-    <string name="ext_media_nomedia_notification_message" product="default" msgid="3870120652983659641">"SD karte ir izņemta. Ievietojiet citu karti."</string>
+    <string name="ext_media_badremoval_notification_title" product="nosdcard" msgid="1661683031330951073">"USB kr. tika negaidīti noņemta"</string>
+    <string name="ext_media_badremoval_notification_title" product="default" msgid="6872152882604407837">"SD karte tika negaidīti izņemta."</string>
+    <string name="ext_media_badremoval_notification_message" product="nosdcard" msgid="4329848819865594241">"Pirms noņemšanas atvienojiet USB krātuvi, lai nezaudētu datus."</string>
+    <string name="ext_media_badremoval_notification_message" product="default" msgid="7260183293747448241">"Demontēt SD karti pirms tās izņemšanas, lai netiktu zaudēti dati."</string>
+    <string name="ext_media_safe_unmount_notification_title" product="nosdcard" msgid="3967973893270360230">"USB krātuvi var droši noņemt"</string>
+    <string name="ext_media_safe_unmount_notification_title" product="default" msgid="6729801130790616200">"SD karti var droši noņemt."</string>
+    <string name="ext_media_safe_unmount_notification_message" product="nosdcard" msgid="6142195361606493530">"Varat droši noņemt USB krātuvi."</string>
+    <string name="ext_media_safe_unmount_notification_message" product="default" msgid="568841278138377604">"Varat droši noņemt SD karti."</string>
+    <string name="ext_media_nomedia_notification_title" product="nosdcard" msgid="4486377230140227651">"Noņemta USB krātuve"</string>
+    <string name="ext_media_nomedia_notification_title" product="default" msgid="8902518030404381318">"Izņemta SD karte"</string>
+    <string name="ext_media_nomedia_notification_message" product="nosdcard" msgid="6921126162580574143">"USB krātuve ir noņemta. Ievietojiet jaunu datu nesēju."</string>
+    <string name="ext_media_nomedia_notification_message" product="default" msgid="3870120652983659641">"SD karte ir izņemta. Ievietojiet citu karti."</string>
     <string name="activity_list_empty" msgid="1675388330786841066">"Nav atrasta neviena atbilstoša darbība."</string>
     <string name="permlab_pkgUsageStats" msgid="8787352074326748892">"atjaunināt komponenta lietojuma statistiku"</string>
     <string name="permdesc_pkgUsageStats" msgid="1106612424254277630">"Ļauj lietotnei modificēt apkopoto statistiku par komponenta lietojumu. Atļauja neattiecas uz parastām lietotnēm."</string>
@@ -1340,9 +1341,9 @@
     <string name="vpn_title_long" msgid="6400714798049252294">"Lietojumprogramma <xliff:g id="APP">%s</xliff:g> aktivizēja VPN."</string>
     <string name="vpn_text" msgid="3011306607126450322">"Pieskarieties, lai pārvaldītu tīklu."</string>
     <string name="vpn_text_long" msgid="6407351006249174473">"Ir izveidots savienojums ar <xliff:g id="SESSION">%s</xliff:g>. Pieskarieties, lai pārvaldītu tīklu."</string>
-    <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"Notiek savienojuma izveide ar vienmēr ieslēgtu VPN…"</string>
-    <string name="vpn_lockdown_connected" msgid="8202679674819213931">"Izveidots savienojums ar vienmēr ieslēgtu VPN."</string>
-    <string name="vpn_lockdown_error" msgid="6009249814034708175">"Kļūda saistībā ar vienmēr ieslēgtu VPN"</string>
+    <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"Notiek savienojuma izveide ar vienmēr ieslēgtu VPN…"</string>
+    <string name="vpn_lockdown_connected" msgid="8202679674819213931">"Izveidots savienojums ar vienmēr ieslēgtu VPN."</string>
+    <string name="vpn_lockdown_error" msgid="6009249814034708175">"Kļūda saistībā ar vienmēr ieslēgtu VPN"</string>
     <string name="vpn_lockdown_config" msgid="6415899150671537970">"Pieskarieties, lai konfigurētu."</string>
     <string name="upload_file" msgid="2897957172366730416">"Izvēlēties failu"</string>
     <string name="no_file_chosen" msgid="6363648562170759465">"Neviens fails nav izvēlēts"</string>
@@ -1362,22 +1363,22 @@
     <string name="no_matches" msgid="8129421908915840737">"Nav atbilstību"</string>
     <string name="find_on_page" msgid="1946799233822820384">"Atrast lapā"</string>
   <plurals name="matches_found">
-    <item quantity="one" msgid="8167147081136579439">"1 atbilstība"</item>
-    <item quantity="other" msgid="4641872797067609177">"<xliff:g id="INDEX">%d</xliff:g> no <xliff:g id="TOTAL">%d</xliff:g>"</item>
+    <item quantity="one" msgid="8167147081136579439">"1 atbilstība"</item>
+    <item quantity="other" msgid="4641872797067609177">"<xliff:g id="INDEX">%d</xliff:g> no <xliff:g id="TOTAL">%d</xliff:g>"</item>
   </plurals>
     <string name="action_mode_done" msgid="7217581640461922289">"Gatavs"</string>
-    <string name="progress_unmounting" product="nosdcard" msgid="3923810448507612746">"Notiek USB atmiņas atvienošana..."</string>
+    <string name="progress_unmounting" product="nosdcard" msgid="3923810448507612746">"Notiek USB atmiņas atvienošana..."</string>
     <string name="progress_unmounting" product="default" msgid="1327894998409537190">"Notiek SD kartes atvienošana..."</string>
-    <string name="progress_erasing" product="nosdcard" msgid="4521573321524340058">"Notiek USB atmiņas dzēšana..."</string>
-    <string name="progress_erasing" product="default" msgid="6596988875507043042">"Notiek SD kartes dzēšana..."</string>
-    <string name="format_error" product="nosdcard" msgid="6299769563624776948">"Nevarēja dzēst USB atmiņu."</string>
-    <string name="format_error" product="default" msgid="7315248696644510935">"Nevarēja dzēst SD karti."</string>
-    <string name="media_bad_removal" msgid="7960864061016603281">"SD karte pirms atvienošanas tika noņemta."</string>
-    <string name="media_checking" product="nosdcard" msgid="418188720009569693">"USB atmiņa pašlaik tiek pārbaudīta."</string>
-    <string name="media_checking" product="default" msgid="7334762503904827481">"SD karte pašlaik tiek pārbaudīta."</string>
-    <string name="media_removed" msgid="7001526905057952097">"SD karte ir noņemta."</string>
-    <string name="media_shared" product="nosdcard" msgid="5830814349250834225">"USB krātuve pašlaik tiek izmantota datorā."</string>
-    <string name="media_shared" product="default" msgid="5706130568133540435">"SD karte pašlaik tiek izmantota datorā."</string>
+    <string name="progress_erasing" product="nosdcard" msgid="4521573321524340058">"Notiek USB atmiņas dzēšana..."</string>
+    <string name="progress_erasing" product="default" msgid="6596988875507043042">"Notiek SD kartes dzēšana..."</string>
+    <string name="format_error" product="nosdcard" msgid="6299769563624776948">"Nevarēja dzēst USB atmiņu."</string>
+    <string name="format_error" product="default" msgid="7315248696644510935">"Nevarēja dzēst SD karti."</string>
+    <string name="media_bad_removal" msgid="7960864061016603281">"SD karte pirms atvienošanas tika noņemta."</string>
+    <string name="media_checking" product="nosdcard" msgid="418188720009569693">"USB atmiņa pašlaik tiek pārbaudīta."</string>
+    <string name="media_checking" product="default" msgid="7334762503904827481">"SD karte pašlaik tiek pārbaudīta."</string>
+    <string name="media_removed" msgid="7001526905057952097">"SD karte ir noņemta."</string>
+    <string name="media_shared" product="nosdcard" msgid="5830814349250834225">"USB krātuve pašlaik tiek izmantota datorā."</string>
+    <string name="media_shared" product="default" msgid="5706130568133540435">"SD karte pašlaik tiek izmantota datorā."</string>
     <string name="media_unknown_state" msgid="729192782197290385">"Ārējais datu nesējs ir nezināmā stāvoklī."</string>
     <string name="share" msgid="1778686618230011964">"Kopīgot"</string>
     <string name="find" msgid="4808270900322985960">"Atrast"</string>
@@ -1390,7 +1391,7 @@
     <string name="gpsVerifYes" msgid="2346566072867213563">"Jā"</string>
     <string name="gpsVerifNo" msgid="1146564937346454865">"Nē"</string>
     <string name="sync_too_many_deletes" msgid="5296321850662746890">"Pārsniegts dzēšanas ierobežojums"</string>
-    <string name="sync_too_many_deletes_desc" msgid="496551671008694245">"<xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g>, konts <xliff:g id="ACCOUNT_NAME">%3$s</xliff:g>: izdzēsti <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g> vienumi. Kādas darbības vēlaties veikt?"</string>
+    <string name="sync_too_many_deletes_desc" msgid="496551671008694245">"<xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g>, konts <xliff:g id="ACCOUNT_NAME">%3$s</xliff:g>: izdzēsti <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g> vienumi. Kādas darbības vēlaties veikt?"</string>
     <string name="sync_really_delete" msgid="2572600103122596243">"Dzēsiet šos vienumus."</string>
     <string name="sync_undo_deletes" msgid="2941317360600338602">"Atsaukt dzēšanu."</string>
     <string name="sync_do_nothing" msgid="3743764740430821845">"Pagaidām neveiciet nekādas darbības."</string>
@@ -1443,18 +1444,18 @@
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s: %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s, %2$s: %3$s"</string>
     <string name="storage_internal" msgid="4891916833657929263">"Iekšējā atmiņa"</string>
-    <string name="storage_sd_card" msgid="3282948861378286745">"SD karte"</string>
-    <string name="storage_usb" msgid="3017954059538517278">"USB atmiņa"</string>
+    <string name="storage_sd_card" msgid="3282948861378286745">"SD karte"</string>
+    <string name="storage_usb" msgid="3017954059538517278">"USB atmiņa"</string>
     <string name="extract_edit_menu_button" msgid="8940478730496610137">"Rediģēt"</string>
     <string name="data_usage_warning_title" msgid="1955638862122232342">"Datu izmantošanas brīdinājums"</string>
     <string name="data_usage_warning_body" msgid="2814673551471969954">"Piesk., lai sk. lietoš. un iest."</string>
-    <string name="data_usage_3g_limit_title" msgid="7093334419518706686">"2G–3G dati ir atspējoti"</string>
-    <string name="data_usage_4g_limit_title" msgid="7636489436819470761">"4G dati ir atspējoti"</string>
+    <string name="data_usage_3g_limit_title" msgid="7093334419518706686">"2G–3G dati ir atspējoti"</string>
+    <string name="data_usage_4g_limit_title" msgid="7636489436819470761">"4G dati ir atspējoti"</string>
     <string name="data_usage_mobile_limit_title" msgid="7869402519391631884">"Mobilie dati ir atspējoti"</string>
     <string name="data_usage_wifi_limit_title" msgid="8992154736441284865">"Wi-Fi dati atspējoti"</string>
     <string name="data_usage_limit_body" msgid="3317964706973601386">"Pieskarieties, lai iespējotu."</string>
     <string name="data_usage_3g_limit_snoozed_title" msgid="7026739121138005231">"2G-3G datu ierobež. pārsniegts"</string>
-    <string name="data_usage_4g_limit_snoozed_title" msgid="1106562779311209039">"4G datu limits pārsniegts"</string>
+    <string name="data_usage_4g_limit_snoozed_title" msgid="1106562779311209039">"4G datu limits pārsniegts"</string>
     <string name="data_usage_mobile_limit_snoozed_title" msgid="279240572165412168">"Pārsniegts mobilo datu ierobežoj."</string>
     <string name="data_usage_wifi_limit_snoozed_title" msgid="8743856006384825974">"Wi-Fi datu ierobež. pārsniegts"</string>
     <string name="data_usage_limit_snoozed_body" msgid="7035490278298441767">"<xliff:g id="SIZE">%s</xliff:g> virs norādītā ierobežojuma."</string>
@@ -1472,8 +1473,8 @@
     <string name="expires_on" msgid="3676242949915959821">"Derīguma termiņš:"</string>
     <string name="serial_number" msgid="758814067660862493">"Sērijas numurs:"</string>
     <string name="fingerprints" msgid="4516019619850763049">"Identifikatori"</string>
-    <string name="sha256_fingerprint" msgid="4391271286477279263">"SHA-256 identifikators"</string>
-    <string name="sha1_fingerprint" msgid="7930330235269404581">"SHA-1 identifikators:"</string>
+    <string name="sha256_fingerprint" msgid="4391271286477279263">"SHA-256 identifikators"</string>
+    <string name="sha1_fingerprint" msgid="7930330235269404581">"SHA-1 identifikators:"</string>
     <string name="activity_chooser_view_see_all" msgid="4292569383976636200">"Skatīt visu"</string>
     <string name="activity_chooser_view_dialog_title_default" msgid="4710013864974040615">"Darbības izvēle"</string>
     <string name="share_action_provider_share_with" msgid="5247684435979149216">"Kopīgošana ar:"</string>
@@ -1503,9 +1504,9 @@
     <string name="media_route_status_not_available" msgid="6739899962681886401">"Nav pieejams"</string>
     <string name="media_route_status_in_use" msgid="4533786031090198063">"Tiek lietots"</string>
     <string name="display_manager_built_in_display_name" msgid="2583134294292563941">"Iebūvēts ekrāns"</string>
-    <string name="display_manager_hdmi_display_name" msgid="1555264559227470109">"HDMI ekrāns"</string>
-    <string name="display_manager_overlay_display_name" msgid="5142365982271620716">"Pārklājums Nr. <xliff:g id="ID">%1$d</xliff:g>"</string>
-    <string name="display_manager_overlay_display_title" msgid="652124517672257172">"<xliff:g id="NAME">%1$s</xliff:g>: <xliff:g id="WIDTH">%2$d</xliff:g> x <xliff:g id="HEIGHT">%3$d</xliff:g>, <xliff:g id="DPI">%4$d</xliff:g> dpi"</string>
+    <string name="display_manager_hdmi_display_name" msgid="1555264559227470109">"HDMI ekrāns"</string>
+    <string name="display_manager_overlay_display_name" msgid="5142365982271620716">"Pārklājums Nr. <xliff:g id="ID">%1$d</xliff:g>"</string>
+    <string name="display_manager_overlay_display_title" msgid="652124517672257172">"<xliff:g id="NAME">%1$s</xliff:g>: <xliff:g id="WIDTH">%2$d</xliff:g> x <xliff:g id="HEIGHT">%3$d</xliff:g>, <xliff:g id="DPI">%4$d</xliff:g> dpi"</string>
     <string name="display_manager_overlay_display_secure_suffix" msgid="6022119702628572080">", drošs"</string>
     <string name="wifi_display_notification_connecting_title" msgid="2838646471050359706">"Ekrāna apraidīšana"</string>
     <string name="wifi_display_notification_connecting_message" msgid="5837350993752841389">"Notiek savienojuma izveide ar: <xliff:g id="NAME">%1$s</xliff:g>"</string>
@@ -1517,20 +1518,20 @@
     <string name="kg_wrong_pattern" msgid="1850806070801358830">"Nepareiza kombinācija"</string>
     <string name="kg_wrong_password" msgid="2333281762128113157">"Nepareiza parole"</string>
     <string name="kg_wrong_pin" msgid="1131306510833563801">"Nepareizs PIN"</string>
-    <string name="kg_too_many_failed_attempts_countdown" msgid="6358110221603297548">"Mēģiniet vēlreiz pēc <xliff:g id="NUMBER">%1$d</xliff:g> sekundēm."</string>
+    <string name="kg_too_many_failed_attempts_countdown" msgid="6358110221603297548">"Mēģiniet vēlreiz pēc <xliff:g id="NUMBER">%1$d</xliff:g> sekundēm."</string>
     <string name="kg_pattern_instructions" msgid="398978611683075868">"Norādiet savu kombināciju"</string>
-    <string name="kg_sim_pin_instructions" msgid="2319508550934557331">"Ievadiet SIM kartes PIN"</string>
-    <string name="kg_pin_instructions" msgid="2377242233495111557">"Ievadiet PIN"</string>
+    <string name="kg_sim_pin_instructions" msgid="2319508550934557331">"Ievadiet SIM kartes PIN"</string>
+    <string name="kg_pin_instructions" msgid="2377242233495111557">"Ievadiet PIN"</string>
     <string name="kg_password_instructions" msgid="5753646556186936819">"Ievadiet paroli"</string>
-    <string name="kg_puk_enter_puk_hint" msgid="453227143861735537">"SIM karte ir atspējota. Lai turpinātu, ievadiet PUK kodu. Lai iegūtu detalizētu informāciju, sazinieties ar mobilo sakaru operatoru."</string>
-    <string name="kg_puk_enter_pin_hint" msgid="7871604527429602024">"Ievadiet vēlamo PIN kodu."</string>
-    <string name="kg_enter_confirm_pin_hint" msgid="325676184762529976">"Apstipriniet vēlamo PIN."</string>
-    <string name="kg_sim_unlock_progress_dialog_message" msgid="8950398016976865762">"Notiek SIM kartes atbloķēšana..."</string>
-    <string name="kg_password_wrong_pin_code" msgid="1139324887413846912">"PIN kods nav pareizs."</string>
-    <string name="kg_invalid_sim_pin_hint" msgid="8795159358110620001">"Ievadiet PIN, kas sastāv no 4 līdz 8 cipariem."</string>
-    <string name="kg_invalid_sim_puk_hint" msgid="7553388325654369575">"PUK kodam ir jābūt vismaz 8 ciparus garam."</string>
-    <string name="kg_invalid_puk" msgid="3638289409676051243">"Atkārtoti ievadiet pareizo PUK kodu. Ja vairākas reizes ievadīsiet to nepareizi, SIM karte tiks neatgriezeniski atspējota."</string>
-    <string name="kg_invalid_confirm_pin_hint" product="default" msgid="7003469261464593516">"PIN kodi neatbilst."</string>
+    <string name="kg_puk_enter_puk_hint" msgid="453227143861735537">"SIM karte ir atspējota. Lai turpinātu, ievadiet PUK kodu. Lai iegūtu detalizētu informāciju, sazinieties ar mobilo sakaru operatoru."</string>
+    <string name="kg_puk_enter_pin_hint" msgid="7871604527429602024">"Ievadiet vēlamo PIN kodu."</string>
+    <string name="kg_enter_confirm_pin_hint" msgid="325676184762529976">"Apstipriniet vēlamo PIN."</string>
+    <string name="kg_sim_unlock_progress_dialog_message" msgid="8950398016976865762">"Notiek SIM kartes atbloķēšana..."</string>
+    <string name="kg_password_wrong_pin_code" msgid="1139324887413846912">"PIN kods nav pareizs."</string>
+    <string name="kg_invalid_sim_pin_hint" msgid="8795159358110620001">"Ievadiet PIN, kas sastāv no 4 līdz 8 cipariem."</string>
+    <string name="kg_invalid_sim_puk_hint" msgid="7553388325654369575">"PUK kodam ir jābūt vismaz 8 ciparus garam."</string>
+    <string name="kg_invalid_puk" msgid="3638289409676051243">"Atkārtoti ievadiet pareizo PUK kodu. Ja vairākas reizes ievadīsiet to nepareizi, SIM karte tiks neatgriezeniski atspējota."</string>
+    <string name="kg_invalid_confirm_pin_hint" product="default" msgid="7003469261464593516">"PIN kodi neatbilst."</string>
     <string name="kg_login_too_many_attempts" msgid="6486842094005698475">"Pārāk daudz kombinācijas mēģinājumu"</string>
     <string name="kg_login_instructions" msgid="1100551261265506448">"Lai atbloķētu, pierakstieties, izmantojot savu Google kontu."</string>
     <string name="kg_login_username_hint" msgid="5718534272070920364">"Lietotājvārds (e-pasts)"</string>
@@ -1539,16 +1540,16 @@
     <string name="kg_login_invalid_input" msgid="5754664119319872197">"Nederīgs lietotājvārds vai parole."</string>
     <string name="kg_login_account_recovery_hint" msgid="5690709132841752974">"Vai aizmirsāt lietotājvārdu vai paroli?\nApmeklējiet vietni "<b>"google.com/accounts/recovery"</b>"."</string>
     <string name="kg_login_checking_password" msgid="1052685197710252395">"Notiek konta pārbaude…"</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message" msgid="8276745642049502550">"Jūs nepareizi ievadījāt PIN <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message" msgid="7813713389422226531">"Jūs nepareizi ievadījāt paroli <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message" msgid="74089475965050805">"Jūs nepareizi norādījāt atbloķēšanas kombināciju <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="tablet" msgid="1575557200627128949">"Jūs nepareizi veicāt planšetdatora atbloķēšanu <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi un lietotāja dati tiks zaudēti."</string>
-    <string name="kg_failed_attempts_almost_at_wipe" product="default" msgid="4051015943038199910">"Jūs nepareizi veicāt tālruņa atbloķēšanu <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi un lietotāja dati tiks zaudēti."</string>
-    <string name="kg_failed_attempts_now_wiping" product="tablet" msgid="2072996269148483637">"Jūs nepareizi veicāt planšetdatora atbloķēšanu <xliff:g id="NUMBER">%d</xliff:g> reizes. Planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi."</string>
-    <string name="kg_failed_attempts_now_wiping" product="default" msgid="4817627474419471518">"Jūs nepareizi veicāt tālruņa atbloķēšanu <xliff:g id="NUMBER">%d</xliff:g> reizes. Tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi."</string>
-    <string name="kg_failed_attempts_almost_at_login" product="tablet" msgid="3253575572118914370">"Jūs nepareizi norādījāt atbloķēšanas kombināciju <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem planšetdators būs jāatbloķē, izmantojot e-pasta kontu.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_2">%d</xliff:g> sekundēm."</string>
-    <string name="kg_failed_attempts_almost_at_login" product="default" msgid="1437638152015574839">"Jūs nepareizi norādījāt atbloķēšanas kombināciju <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem tālrunis būs jāatbloķē, izmantojot e-pasta kontu.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_2">%d</xliff:g> sekundēm."</string>
-    <string name="kg_text_message_separator" product="default" msgid="4160700433287233771">"  — "</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" msgid="8276745642049502550">"Jūs nepareizi ievadījāt PIN <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" msgid="7813713389422226531">"Jūs nepareizi ievadījāt paroli <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" msgid="74089475965050805">"Jūs nepareizi norādījāt atbloķēšanas kombināciju <xliff:g id="NUMBER_0">%d</xliff:g> reizes.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_1">%d</xliff:g> sekundēm."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet" msgid="1575557200627128949">"Jūs nepareizi veicāt planšetdatora atbloķēšanu <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi un lietotāja dati tiks zaudēti."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="default" msgid="4051015943038199910">"Jūs nepareizi veicāt tālruņa atbloķēšanu <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi un lietotāja dati tiks zaudēti."</string>
+    <string name="kg_failed_attempts_now_wiping" product="tablet" msgid="2072996269148483637">"Jūs nepareizi veicāt planšetdatora atbloķēšanu <xliff:g id="NUMBER">%d</xliff:g> reizes. Planšetdatorā tiks atiestatīti rūpnīcas noklusējuma iestatījumi."</string>
+    <string name="kg_failed_attempts_now_wiping" product="default" msgid="4817627474419471518">"Jūs nepareizi veicāt tālruņa atbloķēšanu <xliff:g id="NUMBER">%d</xliff:g> reizes. Tālrunī tiks atiestatīti rūpnīcas noklusējuma iestatījumi."</string>
+    <string name="kg_failed_attempts_almost_at_login" product="tablet" msgid="3253575572118914370">"Jūs nepareizi norādījāt atbloķēšanas kombināciju <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem planšetdators būs jāatbloķē, izmantojot e-pasta kontu.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_2">%d</xliff:g> sekundēm."</string>
+    <string name="kg_failed_attempts_almost_at_login" product="default" msgid="1437638152015574839">"Jūs nepareizi norādījāt atbloķēšanas kombināciju <xliff:g id="NUMBER_0">%d</xliff:g> reizes. Pēc vēl <xliff:g id="NUMBER_1">%d</xliff:g> neveiksmīgiem mēģinājumiem tālrunis būs jāatbloķē, izmantojot e-pasta kontu.\n\nMēģiniet vēlreiz pēc <xliff:g id="NUMBER_2">%d</xliff:g> sekundēm."</string>
+    <string name="kg_text_message_separator" product="default" msgid="4160700433287233771">"  — "</string>
     <string name="kg_reordering_delete_drop_target_text" msgid="7899202978204438708">"Noņemt"</string>
     <string name="safe_media_volume_warning" product="default" msgid="7324161939475478066">"Vai palielināt skaļumu virs ieteicamā līmeņa?\nIlgstoši klausoties skaņu lielā skaļumā, var tikt bojāta dzirde."</string>
     <string name="continue_to_enable_accessibility" msgid="1626427372316070258">"Lai iespējotu pieejamību, turiet nospiestus divus pirkstus."</string>
@@ -1560,79 +1561,79 @@
     <string name="app_no_restricted_accounts" msgid="5739463249673727736">"Šajā lietotnē netiek atbalstīti ierobežotu profilu konti."</string>
     <string name="app_not_found" msgid="3429141853498927379">"Netika atrasta neviena lietojumprogramma, kas var veikt šo darbību."</string>
     <string name="revoke" msgid="5404479185228271586">"Atsaukt"</string>
-    <string name="mediasize_iso_a0" msgid="1994474252931294172">"ISO A0"</string>
-    <string name="mediasize_iso_a1" msgid="3333060421529791786">"ISO A1"</string>
-    <string name="mediasize_iso_a2" msgid="3097535991925798280">"ISO A2"</string>
-    <string name="mediasize_iso_a3" msgid="3023213259314236123">"ISO A3"</string>
-    <string name="mediasize_iso_a4" msgid="231745325296873764">"ISO A4"</string>
-    <string name="mediasize_iso_a5" msgid="3484327407340865411">"ISO A5"</string>
-    <string name="mediasize_iso_a6" msgid="4861908487129577530">"ISO A6"</string>
-    <string name="mediasize_iso_a7" msgid="5890208588072936130">"ISO A7"</string>
-    <string name="mediasize_iso_a8" msgid="4319425041085816612">"ISO A8"</string>
-    <string name="mediasize_iso_a9" msgid="4882220529506432008">"ISO A9"</string>
-    <string name="mediasize_iso_a10" msgid="2382866026365359391">"ISO A10"</string>
-    <string name="mediasize_iso_b0" msgid="3651827147402009675">"ISO B0"</string>
-    <string name="mediasize_iso_b1" msgid="6072859628278739957">"ISO B1"</string>
-    <string name="mediasize_iso_b2" msgid="1348731852150380378">"ISO B2"</string>
-    <string name="mediasize_iso_b3" msgid="2612510181259261379">"ISO B3"</string>
-    <string name="mediasize_iso_b4" msgid="695151378838115434">"ISO B4"</string>
-    <string name="mediasize_iso_b5" msgid="4863754285582212487">"ISO B5"</string>
-    <string name="mediasize_iso_b6" msgid="5305816292139647241">"ISO B6"</string>
-    <string name="mediasize_iso_b7" msgid="531673542602786624">"ISO B7"</string>
-    <string name="mediasize_iso_b8" msgid="9164474595708850034">"ISO B8"</string>
-    <string name="mediasize_iso_b9" msgid="282102976764774160">"ISO B9"</string>
-    <string name="mediasize_iso_b10" msgid="4517141714407898976">"ISO B10"</string>
-    <string name="mediasize_iso_c0" msgid="3103521357901591100">"ISO C0"</string>
-    <string name="mediasize_iso_c1" msgid="1231954105985048595">"ISO C1"</string>
-    <string name="mediasize_iso_c2" msgid="927702816980087462">"ISO C2"</string>
-    <string name="mediasize_iso_c3" msgid="835154173518304159">"ISO C3"</string>
-    <string name="mediasize_iso_c4" msgid="5095951985108194011">"ISO C4"</string>
-    <string name="mediasize_iso_c5" msgid="1985397450332305739">"ISO C5"</string>
-    <string name="mediasize_iso_c6" msgid="8147421924174693013">"ISO C6"</string>
-    <string name="mediasize_iso_c7" msgid="8993994925276122950">"ISO C7"</string>
-    <string name="mediasize_iso_c8" msgid="6871178104139598957">"ISO C8"</string>
-    <string name="mediasize_iso_c9" msgid="7983532635227561362">"ISO C9"</string>
-    <string name="mediasize_iso_c10" msgid="5040764293406765584">"ISO C10"</string>
+    <string name="mediasize_iso_a0" msgid="1994474252931294172">"ISO A0"</string>
+    <string name="mediasize_iso_a1" msgid="3333060421529791786">"ISO A1"</string>
+    <string name="mediasize_iso_a2" msgid="3097535991925798280">"ISO A2"</string>
+    <string name="mediasize_iso_a3" msgid="3023213259314236123">"ISO A3"</string>
+    <string name="mediasize_iso_a4" msgid="231745325296873764">"ISO A4"</string>
+    <string name="mediasize_iso_a5" msgid="3484327407340865411">"ISO A5"</string>
+    <string name="mediasize_iso_a6" msgid="4861908487129577530">"ISO A6"</string>
+    <string name="mediasize_iso_a7" msgid="5890208588072936130">"ISO A7"</string>
+    <string name="mediasize_iso_a8" msgid="4319425041085816612">"ISO A8"</string>
+    <string name="mediasize_iso_a9" msgid="4882220529506432008">"ISO A9"</string>
+    <string name="mediasize_iso_a10" msgid="2382866026365359391">"ISO A10"</string>
+    <string name="mediasize_iso_b0" msgid="3651827147402009675">"ISO B0"</string>
+    <string name="mediasize_iso_b1" msgid="6072859628278739957">"ISO B1"</string>
+    <string name="mediasize_iso_b2" msgid="1348731852150380378">"ISO B2"</string>
+    <string name="mediasize_iso_b3" msgid="2612510181259261379">"ISO B3"</string>
+    <string name="mediasize_iso_b4" msgid="695151378838115434">"ISO B4"</string>
+    <string name="mediasize_iso_b5" msgid="4863754285582212487">"ISO B5"</string>
+    <string name="mediasize_iso_b6" msgid="5305816292139647241">"ISO B6"</string>
+    <string name="mediasize_iso_b7" msgid="531673542602786624">"ISO B7"</string>
+    <string name="mediasize_iso_b8" msgid="9164474595708850034">"ISO B8"</string>
+    <string name="mediasize_iso_b9" msgid="282102976764774160">"ISO B9"</string>
+    <string name="mediasize_iso_b10" msgid="4517141714407898976">"ISO B10"</string>
+    <string name="mediasize_iso_c0" msgid="3103521357901591100">"ISO C0"</string>
+    <string name="mediasize_iso_c1" msgid="1231954105985048595">"ISO C1"</string>
+    <string name="mediasize_iso_c2" msgid="927702816980087462">"ISO C2"</string>
+    <string name="mediasize_iso_c3" msgid="835154173518304159">"ISO C3"</string>
+    <string name="mediasize_iso_c4" msgid="5095951985108194011">"ISO C4"</string>
+    <string name="mediasize_iso_c5" msgid="1985397450332305739">"ISO C5"</string>
+    <string name="mediasize_iso_c6" msgid="8147421924174693013">"ISO C6"</string>
+    <string name="mediasize_iso_c7" msgid="8993994925276122950">"ISO C7"</string>
+    <string name="mediasize_iso_c8" msgid="6871178104139598957">"ISO C8"</string>
+    <string name="mediasize_iso_c9" msgid="7983532635227561362">"ISO C9"</string>
+    <string name="mediasize_iso_c10" msgid="5040764293406765584">"ISO C10"</string>
     <string name="mediasize_na_letter" msgid="2841414839888344296">"Letter"</string>
     <string name="mediasize_na_gvrnmt_letter" msgid="5295836838862962809">"Government Letter"</string>
     <string name="mediasize_na_legal" msgid="8621364037680465666">"Legal"</string>
     <string name="mediasize_na_junior_legal" msgid="3309324162155085904">"Junior Legal"</string>
     <string name="mediasize_na_ledger" msgid="5567030340509075333">"Ledger"</string>
     <string name="mediasize_na_tabloid" msgid="4571735038501661757">"Tabloid"</string>
-    <string name="mediasize_na_index_3x5" msgid="5182901917818625126">"Index Card 3 x 5"</string>
-    <string name="mediasize_na_index_4x6" msgid="7687620625422312396">"Index Card 4 x 6"</string>
-    <string name="mediasize_na_index_5x8" msgid="8834215284646872800">"Index Card 5 x 8"</string>
+    <string name="mediasize_na_index_3x5" msgid="5182901917818625126">"Index Card 3 x 5"</string>
+    <string name="mediasize_na_index_4x6" msgid="7687620625422312396">"Index Card 4 x 6"</string>
+    <string name="mediasize_na_index_5x8" msgid="8834215284646872800">"Index Card 5 x 8"</string>
     <string name="mediasize_na_monarch" msgid="213639906956550754">"Monarch"</string>
     <string name="mediasize_na_quarto" msgid="835778493593023223">"Quarto"</string>
     <string name="mediasize_na_foolscap" msgid="1573911237983677138">"Foolscap"</string>
-    <string name="mediasize_chinese_roc_8k" msgid="3626855847189438896">"ROC 8K"</string>
-    <string name="mediasize_chinese_roc_16k" msgid="9182191577022943355">"ROC 16K"</string>
-    <string name="mediasize_chinese_prc_1" msgid="4793232644980170500">"PRC 1"</string>
-    <string name="mediasize_chinese_prc_2" msgid="5404109730975720670">"PRC 2"</string>
-    <string name="mediasize_chinese_prc_3" msgid="1335092253339363526">"PRC 3"</string>
-    <string name="mediasize_chinese_prc_4" msgid="9167997800486569834">"PRC 4"</string>
-    <string name="mediasize_chinese_prc_5" msgid="845875168823541497">"PRC 5"</string>
-    <string name="mediasize_chinese_prc_6" msgid="3220325667692648789">"PRC 6"</string>
-    <string name="mediasize_chinese_prc_7" msgid="1776792138507038527">"PRC 7"</string>
-    <string name="mediasize_chinese_prc_8" msgid="1417176642687456692">"PRC 8"</string>
-    <string name="mediasize_chinese_prc_9" msgid="4785983473123798365">"PRC 9"</string>
-    <string name="mediasize_chinese_prc_10" msgid="7847982299391851899">"PRC 10"</string>
-    <string name="mediasize_chinese_prc_16k" msgid="262793383539980677">"PRC 16K"</string>
-    <string name="mediasize_chinese_om_pa_kai" msgid="5256815579447959814">"Pa Kai"</string>
-    <string name="mediasize_chinese_om_dai_pa_kai" msgid="7336412963441354407">"Dai Pa Kai"</string>
-    <string name="mediasize_chinese_om_jurro_ku_kai" msgid="6324465444100490742">"Jurro Ku Kai"</string>
-    <string name="mediasize_japanese_jis_b10" msgid="1787262845627694376">"JIS B10"</string>
-    <string name="mediasize_japanese_jis_b9" msgid="3336035783663287470">"JIS B9"</string>
-    <string name="mediasize_japanese_jis_b8" msgid="6195398299104345731">"JIS B8"</string>
-    <string name="mediasize_japanese_jis_b7" msgid="1674621886902828884">"JIS B7"</string>
-    <string name="mediasize_japanese_jis_b6" msgid="4170576286062657435">"JIS B6"</string>
-    <string name="mediasize_japanese_jis_b5" msgid="4899297958100032533">"JIS B5"</string>
-    <string name="mediasize_japanese_jis_b4" msgid="4213158129126666847">"JIS B4"</string>
-    <string name="mediasize_japanese_jis_b3" msgid="8513715307410310696">"JIS B3"</string>
-    <string name="mediasize_japanese_jis_b2" msgid="4777690211897131190">"JIS B2"</string>
-    <string name="mediasize_japanese_jis_b1" msgid="4608142385457034603">"JIS B1"</string>
-    <string name="mediasize_japanese_jis_b0" msgid="7587108366572243991">"JIS B0"</string>
-    <string name="mediasize_japanese_jis_exec" msgid="5244075432263649068">"JIS Exec"</string>
+    <string name="mediasize_chinese_roc_8k" msgid="3626855847189438896">"ROC 8K"</string>
+    <string name="mediasize_chinese_roc_16k" msgid="9182191577022943355">"ROC 16K"</string>
+    <string name="mediasize_chinese_prc_1" msgid="4793232644980170500">"PRC 1"</string>
+    <string name="mediasize_chinese_prc_2" msgid="5404109730975720670">"PRC 2"</string>
+    <string name="mediasize_chinese_prc_3" msgid="1335092253339363526">"PRC 3"</string>
+    <string name="mediasize_chinese_prc_4" msgid="9167997800486569834">"PRC 4"</string>
+    <string name="mediasize_chinese_prc_5" msgid="845875168823541497">"PRC 5"</string>
+    <string name="mediasize_chinese_prc_6" msgid="3220325667692648789">"PRC 6"</string>
+    <string name="mediasize_chinese_prc_7" msgid="1776792138507038527">"PRC 7"</string>
+    <string name="mediasize_chinese_prc_8" msgid="1417176642687456692">"PRC 8"</string>
+    <string name="mediasize_chinese_prc_9" msgid="4785983473123798365">"PRC 9"</string>
+    <string name="mediasize_chinese_prc_10" msgid="7847982299391851899">"PRC 10"</string>
+    <string name="mediasize_chinese_prc_16k" msgid="262793383539980677">"PRC 16K"</string>
+    <string name="mediasize_chinese_om_pa_kai" msgid="5256815579447959814">"Pa Kai"</string>
+    <string name="mediasize_chinese_om_dai_pa_kai" msgid="7336412963441354407">"Dai Pa Kai"</string>
+    <string name="mediasize_chinese_om_jurro_ku_kai" msgid="6324465444100490742">"Jurro Ku Kai"</string>
+    <string name="mediasize_japanese_jis_b10" msgid="1787262845627694376">"JIS B10"</string>
+    <string name="mediasize_japanese_jis_b9" msgid="3336035783663287470">"JIS B9"</string>
+    <string name="mediasize_japanese_jis_b8" msgid="6195398299104345731">"JIS B8"</string>
+    <string name="mediasize_japanese_jis_b7" msgid="1674621886902828884">"JIS B7"</string>
+    <string name="mediasize_japanese_jis_b6" msgid="4170576286062657435">"JIS B6"</string>
+    <string name="mediasize_japanese_jis_b5" msgid="4899297958100032533">"JIS B5"</string>
+    <string name="mediasize_japanese_jis_b4" msgid="4213158129126666847">"JIS B4"</string>
+    <string name="mediasize_japanese_jis_b3" msgid="8513715307410310696">"JIS B3"</string>
+    <string name="mediasize_japanese_jis_b2" msgid="4777690211897131190">"JIS B2"</string>
+    <string name="mediasize_japanese_jis_b1" msgid="4608142385457034603">"JIS B1"</string>
+    <string name="mediasize_japanese_jis_b0" msgid="7587108366572243991">"JIS B0"</string>
+    <string name="mediasize_japanese_jis_exec" msgid="5244075432263649068">"JIS Exec"</string>
     <string name="mediasize_japanese_chou4" msgid="4941652015032631361">"Chou4"</string>
     <string name="mediasize_japanese_chou3" msgid="6387319169263957010">"Chou3"</string>
     <string name="mediasize_japanese_chou2" msgid="1299112025415343982">"Chou2"</string>
@@ -1649,18 +1650,18 @@
     <string name="reason_service_unavailable" msgid="7824008732243903268">"Drukas pakalpojums nav iespējots."</string>
     <string name="print_service_installed_title" msgid="2246317169444081628">"Instalēts pakalpojums <xliff:g id="NAME">%s</xliff:g>"</string>
     <string name="print_service_installed_message" msgid="5897362931070459152">"Pieskarieties, lai iespējotu"</string>
-    <string name="restr_pin_enter_admin_pin" msgid="783643731895143970">"Administratora PIN ievadīšana"</string>
-    <string name="restr_pin_enter_pin" msgid="3395953421368476103">"Ievadiet PIN."</string>
+    <string name="restr_pin_enter_admin_pin" msgid="783643731895143970">"Administratora PIN ievadīšana"</string>
+    <string name="restr_pin_enter_pin" msgid="3395953421368476103">"Ievadiet PIN."</string>
     <string name="restr_pin_incorrect" msgid="8571512003955077924">"Nepareizs"</string>
-    <string name="restr_pin_enter_old_pin" msgid="1462206225512910757">"Pašreizējais PIN"</string>
-    <string name="restr_pin_enter_new_pin" msgid="5959606691619959184">"Jaunais PIN"</string>
-    <string name="restr_pin_confirm_pin" msgid="8501523829633146239">"Apstipriniet jauno PIN."</string>
-    <string name="restr_pin_create_pin" msgid="8017600000263450337">"Izveidojiet PIN, lai mainītu ierobežojumus."</string>
-    <string name="restr_pin_error_doesnt_match" msgid="2224214190906994548">"Ievadītie PIN neatbilst. Mēģiniet vēlreiz."</string>
-    <string name="restr_pin_error_too_short" msgid="8173982756265777792">"PIN ir pārāk īss. Tam ir jābūt vismaz 4 ciparus garam."</string>
+    <string name="restr_pin_enter_old_pin" msgid="1462206225512910757">"Pašreizējais PIN"</string>
+    <string name="restr_pin_enter_new_pin" msgid="5959606691619959184">"Jaunais PIN"</string>
+    <string name="restr_pin_confirm_pin" msgid="8501523829633146239">"Apstipriniet jauno PIN."</string>
+    <string name="restr_pin_create_pin" msgid="8017600000263450337">"Izveidojiet PIN, lai mainītu ierobežojumus."</string>
+    <string name="restr_pin_error_doesnt_match" msgid="2224214190906994548">"Ievadītie PIN neatbilst. Mēģiniet vēlreiz."</string>
+    <string name="restr_pin_error_too_short" msgid="8173982756265777792">"PIN ir pārāk īss. Tam ir jābūt vismaz 4 ciparus garam."</string>
   <plurals name="restr_pin_countdown">
-    <item quantity="one" msgid="311050995198548675">"Mēģ. vēl pēc 1 s"</item>
-    <item quantity="other" msgid="4730868920742952817">"Mēģ. vēl pēc <xliff:g id="COUNT">%d</xliff:g> s"</item>
+    <item quantity="one" msgid="311050995198548675">"Mēģ. vēl pēc 1 s"</item>
+    <item quantity="other" msgid="4730868920742952817">"Mēģ. vēl pēc <xliff:g id="COUNT">%d</xliff:g> s"</item>
   </plurals>
     <string name="restr_pin_try_later" msgid="973144472490532377">"Vēlāk mēģiniet vēlreiz."</string>
     <string name="immersive_mode_confirmation" msgid="7227416894979047467">"Lai izietu no pilnekrāna režīma, velciet no augšas uz leju."</string>
