@@ -1218,6 +1218,7 @@ public final class Settings {
             MOVED_TO_SECURE.add(Secure.LOCK_PATTERN_ENABLED);
             MOVED_TO_SECURE.add(Secure.LOCK_PATTERN_VISIBLE);
             MOVED_TO_SECURE.add(Secure.LOCK_PATTERN_TACTILE_FEEDBACK_ENABLED);
+            MOVED_TO_SECURE.add(Secure.LOCK_NUMPAD_RANDOM);
             MOVED_TO_SECURE.add(Secure.LOGGING_ID);
             MOVED_TO_SECURE.add(Secure.PARENTAL_CONTROL_ENABLED);
             MOVED_TO_SECURE.add(Secure.PARENTAL_CONTROL_LAST_UPDATE);
@@ -3109,6 +3110,12 @@ public final class Settings {
         public static final String KEY_APP_SWITCH_LONG_PRESS_ACTION = "key_app_switch_long_press_action";
 
         /**
+         * Whether to wake the screen with the home key, the value is boolean.
+         * @hide
+         */
+        public static final String HOME_WAKE_SCREEN = "home_wake_screen";
+
+        /**
          * Whether the phone ringtone should be played in an increasing manner
          * @hide
          */
@@ -3239,6 +3246,145 @@ public final class Settings {
         public static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
         /**
+         * ListView Animations
+         * 0 == None
+         * 1 == Wave (Left)
+         * 2 == Wave (Right)
+         * 3 == Scale
+         * 4 == Alpha
+         * 5 == Stack (Top)
+         * 6 == Stack (Bottom)
+         * 7 == Translate (Left)
+         * 8 == Translate (Right)
+         * @hide
+         */
+        public static final String LISTVIEW_ANIMATION = "listview_animation";
+
+        /**
+         * ListView Interpolators
+         * 0 == None
+         * 1 == accelerate_interpolator
+         * 2 == decelerate_interpolator
+         * 3 == accelerate_decelerate_interpolator
+         * 4 == anticipate_interpolator
+         * 5 == overshoot_interpolator
+         * 6 == anticipate_overshoot_interpolator
+         * 7 == bounce_interpolator
+         * @hide
+         */
+        public static final String LISTVIEW_INTERPOLATOR = "listview_interpolator";
+
+        /**
+         * Base: Implement ad blocker [2/3]
+         * Disable ads (HFM)
+         * @hide
+         */
+        public static final String HFM_DISABLE_ADS = "hfm_disable_ads";
+
+        /**
+         * Whether to show the battery bar
+         * @hide
+         */
+        public static final String STATUSBAR_BATTERY_BAR = "statusbar_battery_bar";
+
+        /**
+         * @hide
+         */
+        public static final String STATUSBAR_BATTERY_BAR_COLOR = "statusbar_battery_bar_color";
+
+        /**
+         * @hide
+         */
+        public static final String STATUSBAR_BATTERY_BAR_THICKNESS = "statusbar_battery_bar_thickness";
+
+        /**
+         * @hide
+         */
+        public static final String STATUSBAR_BATTERY_BAR_STYLE = "statusbar_battery_bar_style";
+
+        /**
+         * @hide
+         */
+        public static final String STATUSBAR_BATTERY_BAR_ANIMATE = "statusbar_battery_bar_animate";
+
+    /**
+    *
+    * SMOOTH PROGRESS BAR Mirror
+    * @hide
+    */
+        public static final String PROGRESSBAR_MIRROR = "progressbar_mirror";
+
+    /**
+    *
+    * SMOOTH PROGRESS BAR Reverse
+    * @hide
+    */
+        public static final String PROGRESSBAR_REVERSE = "progressbar_reverse";
+
+    /**
+    *
+    * SMOOTH PROGRESS BAR Speed
+    * @hide
+    */
+        public static final String PROGRESSBAR_SPEED = "progressbar_speed";
+
+       /**
+    *
+    * SMOOTH PROGRESS BAR Width
+    * @hide
+    */
+        public static final String PROGRESSBAR_WIDTH = "progressbar_width";
+
+        /**
+    *
+    * SMOOTH PROGRESS BAR Length
+    * @hide
+    */
+        public static final String PROGRESSBAR_LENGTH = "progressbar_length";
+
+        /**
+    *
+    * SMOOTH PROGRESS BAR Count
+    * @hide
+    */
+        public static final String PROGRESSBAR_COUNT = "progressbar_count";
+
+        /**
+    *
+    * SMOOTH PROGRESS BAR Color_1
+    * @hide
+    */
+        public static final String PROGRESSBAR_COLOR_1 = "progressbar_color_1";
+
+        /**
+    *
+    * SMOOTH PROGRESS BAR Color_2
+    * @hide
+    */
+        public static final String PROGRESSBAR_COLOR_2 = "progressbar_color_2";
+
+        /**
+    *
+    * SMOOTH PROGRESS BAR Color_3
+    * @hide
+    */
+        public static final String PROGRESSBAR_COLOR_3 = "progressbar_color_3";
+
+        /**
+    *
+    * SMOOTH PROGRESS BAR Color_4
+    * @hide
+    */
+        public static final String PROGRESSBAR_COLOR_4 = "progressbar_color_4";
+
+        /**
+         *
+         * SMOOTH PROGRESS BAR interpolator
+         * @hide
+         */
+        public static final String PROGRESSBAR_INTERPOLATOR = "progressbar_interpolator";
+
+        /**
          * Boolean value on whether to show weather in the statusbar
          */
         public static final String STATUS_BAR_SHOW_WEATHER = "status_bar_show_weather";
@@ -3275,12 +3421,6 @@ public final class Settings {
          * @hide
          */
         public static final String FORMAL_TEXT_INPUT = "formal_text_input";
-
-        /**
-         * Home button wake
-         * @hide
-         */
-        public static final String HOME_WAKE_SCREEN = "home_wake_screen";
 
         /**
          * Status bar battery %
@@ -4405,6 +4545,15 @@ public final class Settings {
          * Whether lock pattern is visible as user enters (0 = false, 1 = true)
          */
         public static final String LOCK_PATTERN_VISIBLE = "lock_pattern_visible_pattern";
+
+        /**
+         * Whether the NumKeyPad will change the orders of numbers
+         * in a PIN locked lockscreen
+         * 0 = off | 1 = always | 2 = only on request
+         * @hide
+          */
+
+        public static final String LOCK_NUMPAD_RANDOM = "lock_numpad_random";
 
         /**
          * Whether lock pattern will vibrate as user enters (0 = false, 1 =
