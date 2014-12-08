@@ -3105,12 +3105,12 @@ public final class ActivityManagerService extends ActivityManagerNative
         if (app == null) {
             checkTime(startTime, "startProcess: creating new process record");
             app = newProcessRecordLocked(info, processName, isolated, isolatedUid);
-            app.crashHandler = crashHandler;
             if (app == null) {
                 Slog.w(TAG, "Failed making new process record for "
                         + processName + "/" + info.uid + " isolated=" + isolated);
                 return null;
             }
+            app.crashHandler = crashHandler;
             mProcessNames.put(processName, app.uid, app);
             if (isolated) {
                 mIsolatedProcesses.put(app.uid, app);
@@ -6176,6 +6176,7 @@ public final class ActivityManagerService extends ActivityManagerNative
         app.hasShownUi = false;
         app.debugging = false;
         app.cached = false;
+        app.killedByAm = false;
 
         mHandler.removeMessages(PROC_START_TIMEOUT_MSG, app);
 
@@ -9549,11 +9550,13 @@ public final class ActivityManagerService extends ActivityManagerNative
                             if (DEBUG_PROVIDER) {
                                 Slog.d(TAG, "Installing in existing process " + proc);
                             }
-                            checkTime(startTime, "getContentProviderImpl: scheduling install");
-                            proc.pubProviders.put(cpi.name, cpr);
-                            try {
-                                proc.thread.scheduleInstallProvider(cpi);
-                            } catch (RemoteException e) {
+                            if (!proc.pubProviders.containsKey(cpi.name)) {
+                                checkTime(startTime, "getContentProviderImpl: scheduling install");
+                                proc.pubProviders.put(cpi.name, cpr);
+                                try {
+                                    proc.thread.scheduleInstallProvider(cpi);
+                                } catch (RemoteException e) {
+                                }
                             }
                         } else {
                             checkTime(startTime, "getContentProviderImpl: before start process");
@@ -10123,10 +10126,9 @@ public final class ActivityManagerService extends ActivityManagerNative
             } finally {
                 // Ensure that whatever happens, we clean up the identity state
                 sCallerIdentity.remove();
+                // Ensure we're done with the provider.
+                removeContentProviderExternalUnchecked(name, null, userId);
             }
-
-            // We've got the fd now, so we're done with the provider.
-            removeContentProviderExternalUnchecked(name, null, userId);
         } else {
             Slog.d(TAG, "Failed to get provider for authority '" + name + "'");
         }
