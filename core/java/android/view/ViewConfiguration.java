@@ -314,7 +314,7 @@ public class ViewConfiguration {
                 case HAS_PERMANENT_MENU_KEY_AUTODETECT: {
                     IWindowManager wm = WindowManagerGlobal.getWindowManagerService();
                     try {
-                        sHasPermanentMenuKey = !wm.hasNavigationBar();
+                        sHasPermanentMenuKey = wm.hasPermanentMenuKey();
                         sHasPermanentMenuKeySet = true;
                     } catch (RemoteException ex) {
                         sHasPermanentMenuKey = false;
@@ -765,7 +765,7 @@ public class ViewConfiguration {
 
         // Report menu key presence based on hardware key rebinding
         try {
-            return wm.hasMenuKeyEnabled();
+            return wm.hasPermanentMenuKey();
         } catch (RemoteException ex) {
             return true;
         }
