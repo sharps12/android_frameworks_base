@@ -18,8 +18,8 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- Don't use roaming icon for considered operators -->
+    <!-- Vectone: Don't use roaming icon for T-Mobile -->
     <string-array translatable="false" name="config_operatorConsideredNonRoaming">
-        <item>23203</item>
+        <item>23430</item>
     </string-array>
 </resources>
