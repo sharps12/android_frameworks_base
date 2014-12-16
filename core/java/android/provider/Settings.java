@@ -3444,83 +3444,6 @@ public final class Settings {
          */
         public static final String STATUSBAR_BATTERY_BAR_ANIMATE = "statusbar_battery_bar_animate";
 
-    /**
-    *
-    * SMOOTH PROGRESS BAR Mirror
-    * @hide
-    */
-        public static final String PROGRESSBAR_MIRROR = "progressbar_mirror";
-
-    /**
-    *
-    * SMOOTH PROGRESS BAR Reverse
-    * @hide
-    */
-        public static final String PROGRESSBAR_REVERSE = "progressbar_reverse";
-
-    /**
-    *
-    * SMOOTH PROGRESS BAR Speed
-    * @hide
-    */
-        public static final String PROGRESSBAR_SPEED = "progressbar_speed";
-
-       /**
-    *
-    * SMOOTH PROGRESS BAR Width
-    * @hide
-    */
-        public static final String PROGRESSBAR_WIDTH = "progressbar_width";
-
-        /**
-    *
-    * SMOOTH PROGRESS BAR Length
-    * @hide
-    */
-        public static final String PROGRESSBAR_LENGTH = "progressbar_length";
-
-        /**
-    *
-    * SMOOTH PROGRESS BAR Count
-    * @hide
-    */
-        public static final String PROGRESSBAR_COUNT = "progressbar_count";
-
-        /**
-    *
-    * SMOOTH PROGRESS BAR Color_1
-    * @hide
-    */
-        public static final String PROGRESSBAR_COLOR_1 = "progressbar_color_1";
-
-        /**
-    *
-    * SMOOTH PROGRESS BAR Color_2
-    * @hide
-    */
-        public static final String PROGRESSBAR_COLOR_2 = "progressbar_color_2";
-
-        /**
-    *
-    * SMOOTH PROGRESS BAR Color_3
-    * @hide
-    */
-        public static final String PROGRESSBAR_COLOR_3 = "progressbar_color_3";
-
-        /**
-    *
-    * SMOOTH PROGRESS BAR Color_4
-    * @hide
-    */
-        public static final String PROGRESSBAR_COLOR_4 = "progressbar_color_4";
-
-        /**
-         *
-         * SMOOTH PROGRESS BAR interpolator
-         * @hide
-         */
-        public static final String PROGRESSBAR_INTERPOLATOR = "progressbar_interpolator";
-
         /**
          * Boolean value on whether to show weather in the statusbar
          */
@@ -3990,6 +3913,8 @@ public final class Settings {
             MOVED_TO_LOCK_SETTINGS.add(Secure.LOCK_PATTERN_ENABLED);
             MOVED_TO_LOCK_SETTINGS.add(Secure.LOCK_PATTERN_VISIBLE);
             MOVED_TO_LOCK_SETTINGS.add(Secure.LOCK_PATTERN_TACTILE_FEEDBACK_ENABLED);
+            MOVED_TO_LOCK_SETTINGS.add(Secure.LOCK_GESTURE_ENABLED);
+            MOVED_TO_LOCK_SETTINGS.add(Secure.LOCK_GESTURE_VISIBLE);
 
             MOVED_TO_GLOBAL = new HashSet<String>();
             MOVED_TO_GLOBAL.add(Settings.Global.ADB_ENABLED);
@@ -4714,6 +4639,18 @@ public final class Settings {
         @Deprecated
         public static final String
                 LOCK_PATTERN_TACTILE_FEEDBACK_ENABLED = "lock_pattern_tactile_feedback_enabled";
+
+        /**
+         * Whether autolock is enabled (0 = false, 1 = true)
+         * @hide
+         */
+        public static final String LOCK_GESTURE_ENABLED = "lock_gesture_autolock";
+
+        /**
+         * Whether lock gesture is visible as user enters (0 = false, 1 = true)
+         * @hide
+         */
+        public static final String LOCK_GESTURE_VISIBLE = "lock_gesture_visible_pattern";
 
         /**
          * This preference allows the device to be locked given time after screen goes off,
