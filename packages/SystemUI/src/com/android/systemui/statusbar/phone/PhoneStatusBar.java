@@ -35,8 +35,6 @@ import static com.android.systemui.statusbar.phone.BarTransitions.MODE_WARNING;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.TimeInterpolator;
-import android.annotation.ChaosLab;
-import android.annotation.ChaosLab.Classification;
 import android.annotation.NonNull;
 import android.app.ActivityManager;
 import android.app.ActivityManagerNative;
@@ -472,6 +470,7 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
                             R.integer.heads_up_notification_decay),
                             UserHandle.USER_CURRENT);
                     resetHeadsUpDecayTimer();
+<<<<<<< HEAD
             } else if (uri.equals(Settings.System.getUriFor(
                     Settings.System.STATUS_BAR_TICKER_ENABLED))) {
                     mTickerEnabled = Settings.System.getIntForUser(
@@ -490,6 +489,8 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
                         mBatterySaverWarningColor = mContext.getResources()
                                 .getColor(com.android.internal.R.color.battery_saver_mode_color);
                     }
+=======
+>>>>>>> parent of c1fb8e0... Gestures
             }
             update();
         }
@@ -503,6 +504,10 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
             mAutomaticBrightness = mode != Settings.System.SCREEN_BRIGHTNESS_MODE_MANUAL;
             mBrightnessControl = Settings.System.getInt(
                     resolver, Settings.System.STATUS_BAR_BRIGHTNESS_CONTROL, 0) == 1;
+            mTickerEnabled = Settings.System.getIntForUser(
+                    resolver, Settings.System.STATUS_BAR_TICKER_ENABLED,
+                    mContext.getResources().getBoolean(R.bool.enable_ticker)
+                            ? 1 : 0, UserHandle.USER_CURRENT) == 1;
         }
     }
 
@@ -739,7 +744,6 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
     // ================================================================================
     // Constructing the view
     // ================================================================================
-    @ChaosLab(name="GestureAnywhere", classification=Classification.CHANGE_CODE)
     protected PhoneStatusBarView makeStatusBarView() {
         final Context context = mContext;
 
@@ -825,8 +829,6 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
         }
 
         updateShowSearchHoldoff();
-
-        addGestureAnywhereView();
 
         if (mNavigationBarView == null) {
             mNavigationBarView =
@@ -926,7 +928,16 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
                     Settings.System.STATUS_BAR_TICKER_ENABLED,
                     mContext.getResources().getBoolean(R.bool.enable_ticker)
                             ? 1 : 0, UserHandle.USER_CURRENT) == 1;
-        initTickerView();
+        if (mTickerEnabled) {
+            final ViewStub tickerStub = (ViewStub) mStatusBarView.findViewById(R.id.ticker_stub);
+            if (tickerStub != null) {
+                mTickerView = tickerStub.inflate();
+                mTicker = new MyTicker(context, mStatusBarView);
+
+                TickerView tickerView = (TickerView) mStatusBarView.findViewById(R.id.tickerText);
+                tickerView.mTicker = mTicker;
+            }
+        }
 
         mEdgeBorder = res.getDimensionPixelSize(R.dimen.status_bar_edge_ignore);
 
@@ -1269,21 +1280,6 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
 
     public StatusBarWindowView getStatusBarWindow() {
         return mStatusBarWindow;
-    }
-
-    private void initTickerView() {
-        if (mTickerEnabled && (mTicker == null || mTickerView == null)) {
-            final ViewStub tickerStub = (ViewStub) mStatusBarView.findViewById(R.id.ticker_stub);
-            if (tickerStub != null) {
-                mTickerView = tickerStub.inflate();
-                mTicker = new MyTicker(mContext, mStatusBarView);
-
-                TickerView tickerView = (TickerView) mStatusBarView.findViewById(R.id.tickerText);
-                tickerView.mTicker = mTicker;
-            } else {
-                mTickerEnabled = false;
-            }
-        }
     }
 
     @Override
