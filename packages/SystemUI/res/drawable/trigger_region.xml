@@ -2,10 +2,17 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android" >
     <stroke
         android:width="2dp"
+<<<<<<< HEAD
         android:color="#FFFFFFFF" />
 
     <solid
         android:color="#80FFFFFF" />
+=======
+        android:color="#FF27a9e1" />
+    
+    <solid
+        android:color="#8027a9e1" />
+>>>>>>> tem/cm-12.0
 
     <corners
         android:radius="3dp" />
