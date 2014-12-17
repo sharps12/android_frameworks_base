@@ -78,6 +78,9 @@
     <uses-permission android:name="android.permission.START_TASKS_FROM_RECENTS" />
     <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
 
+    <!-- Development shortcut -->
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA" />
+
     <!-- WindowManager -->
     <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
@@ -322,7 +325,7 @@
             android:exported="true"
             android:label="@string/dessert_case"
             android:permission="android.permission.BIND_DREAM_SERVICE"
-            android:enabled="false"
+            android:enabled="true"
             android:process=":sweetsweetdesserts"
             >
             <intent-filter>
