@@ -88,10 +88,7 @@ public class GestureOverlayView extends FrameLayout {
     private final Path mPath = new Path();
     private boolean mGestureVisible = true;
     protected boolean mClearPerformedGesture = true;
-<<<<<<< HEAD
-=======
     protected boolean mInputEnabled = true;
->>>>>>> tem/cm-12.0
 
     private float mX;
     private float mY;
